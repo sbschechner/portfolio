@@ -14,14 +14,15 @@ counter : 0,
 //modify state
 
 var randomSelection = function(state){
-	state.counter = Math.floor(Math.random()*6);
+	state.counter = math.floor(math.random()*7);
+	console.log(state.counter);
 }
 
 
 //render state
 
 var renderFact = function(state){
-	var factState = "<p id='funFact'>" +  state.factArr[state.counter] +" </p>";
+	var factState = "<p>" +  state.factArr[state.counter] +" </p>";
 	$(".js-text").html(factState);
 }
 
@@ -35,9 +36,5 @@ var getFacts = function (state){
 $(function(){
 	getFacts(state);
 });
-
-
-
-
 
 

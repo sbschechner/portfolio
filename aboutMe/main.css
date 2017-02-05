@@ -11,6 +11,7 @@
 	width: 100%;
 	margin-top:-20px;
 	margin-left: -10px;
+	font-family: Roboto;
 
 }
 
@@ -62,5 +63,76 @@ main {
 .portImg{
 	width: 300px;
 	border:silver solid;
+}
 
+
+.aboutMeText{
+	padding-left: 22%;
+}
+
+
+.row {
+	display: inline;
+}
+
+.top{
+	color: orange;
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+.sarcastic{
+	font-style: italic;
+}
+
+.title{
+	text-align: center;
+	text-decoration: underline;
+}
+.box{
+	border: black solid;
+	text-align: center;
+	width: 300px;
+}
+
+.left{
+	background: blue;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.bottom{
+	display: flex;
+}
+
+.bodytext{
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.box > ul {
+margin-right: 50px;
+font-family: Roboto;
+}
+
+ul > li{
+	list-style-type: none;
+}
+
+#feelgood{
+	color: orange;
+	text-decoration: none;
+}
+
+#funFact{
+	font-family: Roboto;
+}
+
+#feelgood:hover{
+	color: purple;
 }
