@@ -1,6 +1,6 @@
 
 .extra{
-	background: green;
+	background: #1c500f;
 }
 
 
@@ -52,6 +52,7 @@ main {
 
 .title{
 	text-align: center;
+	color:	white;
 }
 
 .portrait{
@@ -76,7 +77,6 @@ main {
 }
 
 .top{
-	color: orange;
 	display: flex;
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -95,13 +95,24 @@ main {
 	border: black solid;
 	text-align: center;
 	width: 300px;
+	background: #3939bf;
+	color:white;
+	transition-duration: 1s;
+    transition-property: color;
+    transition-timing-function: linear;
 }
 
+.box:hover{
+color:black;
+}
+
+
 .left{
-	background: blue;
 	margin-right: 50px;
 	margin-left: 50px;
+
 }
+
 
 .bottom{
 	display: flex;
@@ -125,7 +136,7 @@ ul > li{
 }
 
 #feelgood{
-	color: orange;
+	color: white;
 	text-decoration: none;
 }
 

@@ -5,7 +5,7 @@ factArr :	[
 		"In High School, Benjy was on the cover of NJ Monthly",
 		"Benjy usually eats 1 slice of $1 pizza a day",
 		"In High School, Benjy ran hurdles",
-		"in College, Benjy studied Neuroscience and Behavior",
+		"In College, Benjy studied Neuroscience and Behavior",
 		"In a 2 month trip, Benjy travelled to 17 countries",
 			],
 counter : 0,			

@@ -1,6 +1,6 @@
 
 .extra{
-	background: green;
+	background: #1c500f;
 }
 
 
@@ -54,6 +54,7 @@ main {
 	text-decoration: underline;
 	text-align: center;
 	padding-top: 50px;
+	color:white;
 }
 
 .text{
