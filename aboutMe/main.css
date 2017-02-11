@@ -68,19 +68,43 @@ main {
 
 
 .aboutMeText{
-	padding-left: 22%;
+	text-align: center;
+}
+
+.row{
+	padding-left:20px;
+	padding-right:20px;
+	margin: 0 auto;
+  display: inline-flex;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  max-width: 80%;
+  text-align: center;
+  color: white;
 }
 
 
-.row {
-	display: inline;
+.row::before, .row::after{
+	display: table;
+	content: '';
 }
 
-.top{
-	display: flex;
-	margin-top: 50px;
-	margin-bottom: 50px;
+.row::after{
+	clear:both;
+}
 
+.col-6{
+	float:left;
+	padding-left:1.041%;
+	padding-right:1.041%;
+	width:100%;
+}
+
+@media only screen and (max-width: 640px){
+	.col-6{
+		width: 50%;
+    display: block;
+	}
 }
 
 .sarcastic{
@@ -108,15 +132,10 @@ color:black;
 
 
 .left{
-	margin-right: 50px;
-	margin-left: 50px;
+	margin-right: 10%;
 
 }
 
-
-.bottom{
-	display: flex;
-}
 
 .bodytext{
 	padding-top: 10px;
@@ -128,7 +147,6 @@ color:black;
 
 .box > ul {
 margin-right: 50px;
-font-family: Roboto;
 }
 
 ul > li{
