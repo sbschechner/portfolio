@@ -7,6 +7,7 @@ factArr :	[
 		"In High School, Benjy ran hurdles",
 		"In College, Benjy studied Neuroscience and Behavior",
 		"In a 2 month trip, Benjy travelled to 17 countries",
+		"Benjy is in a Documentary Club",
 			],
 counter : 0,			
 }
@@ -14,7 +15,7 @@ counter : 0,
 //modify state
 
 var randomSelection = function(state){
-	state.counter = Math.floor(Math.random()*6);
+	state.counter = Math.floor(Math.random()*7);
 }
 
 

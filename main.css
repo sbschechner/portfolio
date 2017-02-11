@@ -1,11 +1,13 @@
 
 .extra{
-	background: #1c500f;
+	background-image: url("./background1.jpg");
+	background-size: cover;
+
 }
 
 
 .navContainer{
-	background-color: blue;
+	background-color: rgba(44, 6, 251, 0.76);
 	position: fixed;
 	border: black solid;
 	width: 100%;
@@ -24,6 +26,7 @@
 
 .navImg{
 	position: absolute;
+
 }
 
 .images{
@@ -46,6 +49,14 @@ ol > a:hover{
 
 }
 
-main {
-	padding-top: 50px;
+
+.header{
+	text-align: center;
+	padding-top: 11%;
+	width: 60%;
+	margin: auto;
+}
+
+.name{
+	color:white;
 }

@@ -1,11 +1,12 @@
 
 .extra{
-	background: #1c500f;
+	background-image: url("./background1.jpg");
+	background-size: cover;
 }
 
 
 .navContainer{
-	background-color: blue;
+	background-color: rgba(44, 6, 251, 0.76);
 	position: fixed;
 	border: black solid;
 	width: 100%;
@@ -53,7 +54,8 @@ main {
 .header{
 	text-decoration: underline;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 5%;
+	padding-bottom: 2%;
 	color:white;
 }
 
@@ -61,6 +63,7 @@ main {
 	text-align: center;
 	font-style: italic; 
 	color: white;
+	padding-bottom: 3%;
 }
 
 

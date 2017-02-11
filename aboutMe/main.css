@@ -1,17 +1,17 @@
 
 .extra{
-	background: #1c500f;
+	background-image: url("./background1.jpg");
+	background-size: cover;
 }
 
 
 .navContainer{
-	background-color: blue;
+	background-color: rgba(44, 6, 251, 0.76);
 	position: fixed;
 	border: black solid;
 	width: 100%;
 	margin-top:-20px;
 	margin-left: -10px;
-	font-family: Roboto;
 
 }
 
@@ -95,7 +95,7 @@ main {
 	border: black solid;
 	text-align: center;
 	width: 300px;
-	background: #3939bf;
+	background: rgb(58, 46, 222);
 	color:white;
 	transition-duration: 1s;
     transition-property: color;
@@ -141,7 +141,8 @@ ul > li{
 }
 
 #funFact{
-	font-family: Roboto;
+padding-left: 1%;
+padding-right: 1%;
 }
 
 #feelgood:hover{
