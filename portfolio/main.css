@@ -104,8 +104,9 @@ text-align: center;
 }
 
 .imgCont{
-	max-width: 35%;
+	max-width: 55%;
 	margin: auto;
+	padding-bottom: 10%;
 }
 
 .image{
