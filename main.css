@@ -2,6 +2,7 @@
 .extra{
 	background-image: url("./background1.jpg");
 	background-size: cover;
+	font-family: 'Raleway', sans-serif;
 
 }
 
@@ -59,4 +60,11 @@ ol > a:hover{
 
 .name{
 	color:white;
+}
+
+@media only screen and (max-device-width: 500px) {
+    .header {
+        font-size:50px;
+    }
+
 }

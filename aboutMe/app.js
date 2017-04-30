@@ -6,7 +6,7 @@ var state = {
 		"Benjy usually eats 1 slice of $1 pizza a day",
 		"In High School, Benjy ran hurdles",
 		"In College, Benjy studied Neuroscience and Behavior",
-		"In a 2 month trip, Benjy travelled to 17 countries",
+		"In a 2 month trip, Benjy traveled to 17 countries",
 		"Benjy is in a Documentary Club",
 			],
 	imgArr : [
