@@ -140,6 +140,23 @@ color:black;
 }
 
 
+
+.bottom{
+	display: flex;
+}
+
+.bottomest {
+	padding-left: 22%;
+	padding-top: 4%;
+	display: flex;
+}
+
+table{
+	margin: auto;
+	color:white;
+    padding-bottom: 5%;
+}
+
 .bodytext{
 	padding-top: 10px;
 	padding-left: 30px;
