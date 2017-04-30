@@ -1,10 +1,10 @@
 
+
 .extra{
 	background-image: url("./background1.jpg");
 	background-size: cover;
-	font-family: 'Raleway', sans-serif;
 }
-
+ 
 
 .navContainer{
 	background-color: rgba(44, 6, 251, 0.76);
@@ -56,7 +56,6 @@ main {
 	color:	white;
 }
 
-
 .portrait{
 	text-align: center;
 	width: 100%;
@@ -70,44 +69,19 @@ main {
 
 
 .aboutMeText{
-	text-align: center;
-}
-
-.row{
-	padding-left:20px;
-	padding-right:20px;
-	margin: 0 auto;
-  display: inline-flex;
-  padding-bottom: 5%;
-  padding-top: 3%;
-  max-width: 80%;
-  text-align: center;
-  color: white;
+	padding-left: 22%;
 }
 
 
-.row::before, .row::after{
-	display: table;
-	content: '';
+.row {
+	display: inline;
 }
 
-.row::after{
-	clear:both;
-}
+.top{
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px;
 
-.col-6{
-	float:left;
-	padding-left:1.041%;
-	padding-right:1.041%;
-	width:100%;
-	border-radius: 6px;
-}
-
-@media only screen and (max-width: 640px){
-	.col-6{
-		width: 50%;
-    display: block;
-	}
 }
 
 .sarcastic{
@@ -135,10 +109,10 @@ color:black;
 
 
 .left{
-	margin-right: 10%;
+	margin-right: 50px;
+	margin-left: 50px;
 
 }
-
 
 
 .bottom{
@@ -157,6 +131,7 @@ table{
     padding-bottom: 5%;
 }
 
+
 .bodytext{
 	padding-top: 10px;
 	padding-left: 30px;
@@ -167,6 +142,7 @@ table{
 
 .box > ul {
 margin-right: 50px;
+font-family: Roboto;
 }
 
 ul > li{
