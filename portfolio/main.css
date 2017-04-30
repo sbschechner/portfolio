@@ -4,6 +4,7 @@
 .extra{
 	background-image: url("./background1.jpg");
 	background-size: cover;
+	font-family: 'Raleway', sans-serif;
 }
 
 
@@ -103,8 +104,9 @@ text-align: center;
 }
 
 .imgCont{
-	max-width: 35%;
+	max-width: 55%;
 	margin: auto;
+	padding-bottom: 10%;
 }
 
 .image{
@@ -121,4 +123,9 @@ text-align: center;
 
 .box:hover{
 	background-color: black;
+}
+
+a {
+	text-decoration: none;
+	color:white;
 }
