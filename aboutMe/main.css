@@ -102,6 +102,7 @@ main {
 	transition-duration: 1s;
     transition-property: color;
     transition-timing-function: linear;
+    border-radius: 6px;
 }
 
 .box:hover{

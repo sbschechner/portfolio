@@ -121,6 +121,7 @@ text-align: center;
 	transition-property: background;
 	transition-duration: 0.5s;
 	transition-timing-function: linear;
+	border-radius: 6px;
 }
 
 .box:hover{
