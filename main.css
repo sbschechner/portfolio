@@ -1,6 +1,6 @@
 
 .extra{
-	background-image: url("./background1.jpg");
+	background-color:burlywood;
 	background-size: cover;
 	font-family: 'Raleway', sans-serif;
 
@@ -55,15 +55,36 @@ h2 > a {
 	text-decoration: none;
 	font-style: italic;
 	cursor: pointer;
-	color: white;
+	color: ghostwhite;
 
 }
 
 .header{
 	text-align: center;
-	padding-top: 11%;
+	padding-top: 15%;
 	width: 56%;
 	margin: auto;
+}
+
+.typed{
+	color: ghostwhite;
+	font-style: italic;
+}
+
+.typed-cursor{
+	opacity: 1;
+	animation: blink 0.7s infinite;
+}
+@keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+
+.typed-fade-out{
+    opacity: 0;
+    animation: 0;
+    transition: opacity .25s;
 }
 
 
@@ -73,3 +94,5 @@ h2 > a {
     }
 
 }
+
+

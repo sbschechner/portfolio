@@ -8,6 +8,8 @@
 	<meta charset="utf-8">
 	<meta name="description" content="Benjamin Schechner Portfolio Website">
 	<meta name="keywords" content="Benjamin Schechner, Schechner, Benjamin, Sheridan, Front End Developer">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.7/typed.min.js"></script>
 
 </head>
 <body class="extra">
@@ -27,7 +29,14 @@
 	</header>
 <main>
 	<h2 class="header">
-		Hey There! My name is <a href="./aboutMe/index.html">Benjamin Schechner </a> and I am a developer living in New York City.
+
+		Hey There! My name is <a href="./aboutMe/index.html">Benjamin Schechner </a> and I am a 
+		<br>
+		<br>
+		<span class="typed">  </span>
+		<br>
+		<br>
+		living in New York City.
 
 		<br>
 		<br>
@@ -35,5 +44,15 @@
 Feel free to <a href =" ./portfolio/index.html"> explore </a> and <a href="./Contact/index.html"> reach out!</a>
 	</h2>
 </main>
+
+<script type="text/javascript">
+	$(function(){
+        $(".typed").typed({
+            strings: ["Developer ^500", "Dreamer ^500", "Grilled Cheese Enthusiast ^500", "Doer ^500"],
+            typeSpeed: 1,
+        });
+    });
+</script>
+
 </body>
 </html>

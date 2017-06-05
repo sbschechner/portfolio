@@ -2,7 +2,7 @@
 
 
 .extra{
-	background-image: url("./background1.jpg");
+	background:burlywood;
 	background-size: cover;
 	font-family: 'Raleway', sans-serif;
 }
@@ -42,7 +42,7 @@ ul > ol {
 }
 
 ol > a {
-	color: white;
+	color: ghostwhite;
 }
 
 ol > a:hover{
@@ -55,7 +55,7 @@ main {
 }
 
 div > h1 {
-	color:white;
+	color:ghostwhite;
 	text-decoration: underline;
 }
 
@@ -67,7 +67,7 @@ div > h1 {
   display: inline-flex;
   max-width: 80%;
   text-align: center;
-  color: white;
+  color: ghostwhite;
 }
 
 

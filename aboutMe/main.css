@@ -1,7 +1,7 @@
 
 
 .extra{
-	background-image: url("./background1.jpg");
+	background: burlywood;
 	background-size: cover;
 	font-family: 'Raleway', sans-serif;
 }
@@ -41,7 +41,7 @@ ul > ol {
 }
 
 ol > a {
-	color: white;
+	color: ghostwhite;
 }
 
 ol > a:hover{
@@ -54,7 +54,7 @@ main {
 
 .title{
 	text-align: center;
-	color:	white;
+	color:	ghostwhite;
 }
 
 .portrait{
@@ -98,7 +98,7 @@ main {
 	text-align: center;
 	width: 300px;
 	background: rgb(58, 46, 222);
-	color:white;
+	color:ghostwhite;
 	transition-duration: 1s;
     transition-property: color;
     transition-timing-function: linear;
@@ -128,7 +128,7 @@ color:black;
 
 table{
 	margin: auto;
-	color:white;
+	color:ghostwhite;
     padding-bottom: 5%;
 }
 
@@ -152,7 +152,7 @@ ul > li{
 }
 
 #feelgood{
-	color: white;
+	color: ghostwhite;
 	text-decoration: none;
 }
  
