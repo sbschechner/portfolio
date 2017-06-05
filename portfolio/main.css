@@ -42,20 +42,23 @@ ul > ol {
 }
 
 ol > a {
-	color: ghostwhite;
+	color: floralwhite;
 }
 
 ol > a:hover{
-	color:aqua;
+	color:black;
 
 }
 
+a{
+	color:floralwhite;
+}
 main {
 	padding-top: 50px;
 }
 
 div > h1 {
-	color:ghostwhite;
+	color:floralwhite;
 	text-decoration: underline;
 }
 
@@ -67,7 +70,7 @@ div > h1 {
   display: inline-flex;
   max-width: 80%;
   text-align: center;
-  color: ghostwhite;
+  color: floralwhite;
 }
 
 
@@ -126,6 +129,25 @@ text-align: center;
 
 .box:hover{
 	background-color: black;
+}
+
+.langImgCont{
+	width: 35%;
+	height: 25%;
+	padding-bottom: 25%;
+}
+
+.langDescrip{
+	display: flex;
+}
+
+.footer{
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(44, 6, 251, 0.76);
+  text-align: center;
 }
 
 .hidden{

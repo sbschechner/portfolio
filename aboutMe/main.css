@@ -1,5 +1,4 @@
 
-
 .extra{
 	background: burlywood;
 	background-size: cover;
@@ -41,11 +40,11 @@ ul > ol {
 }
 
 ol > a {
-	color: ghostwhite;
+	color: floralwhite;
 }
 
 ol > a:hover{
-	color:aqua;
+	color:black;
 }
 
 main {
@@ -54,7 +53,7 @@ main {
 
 .title{
 	text-align: center;
-	color:	ghostwhite;
+	color:	floralwhite;
 }
 
 .portrait{
@@ -128,7 +127,7 @@ color:black;
 
 table{
 	margin: auto;
-	color:ghostwhite;
+	color:floralwhite;
     padding-bottom: 5%;
 }
 
@@ -163,4 +162,13 @@ padding-right: 1%;
 
 #feelgood:hover{
 	color: purple;
+}
+
+.footer{
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(44, 6, 251, 0.76);
+  text-align: center;
 }

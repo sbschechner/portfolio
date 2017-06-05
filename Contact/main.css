@@ -40,11 +40,11 @@ ul > ol {
 }
 
 ol > a {
-	color: ghostwhite;
+	color: floralwhite;
 }
 
 ol > a:hover{
-	color:aqua;
+	color:black;
 
 }
 
@@ -57,13 +57,13 @@ main {
 	text-align: center;
 	padding-top: 5%;
 	padding-bottom: 2%;
-	color:ghostwhite;
+	color:floralwhite;
 }
 
 .text{
 	text-align: center;
 	font-style: italic; 
-	color: ghostwhite;
+	color: floralwhite;
 	padding-bottom: 3%;
 }
 
@@ -89,4 +89,17 @@ main {
 }
 img:hover{
 	cursor: pointer;
+}
+
+.thumpnails > a {
+	text-decoration: none;
+}
+
+.footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(44, 6, 251, 0.76);
+  text-align: center;
 }

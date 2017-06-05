@@ -1,4 +1,5 @@
 
+
 .extra{
 	background-color:burlywood;
 	background-size: cover;
@@ -43,11 +44,11 @@ ul > ol {
 }
 
 ol > a {
-	color: white;
+	color: floralwhite;
 }
 
 ol > a:hover{
-	color:aqua;
+	color:black;
 
 }
 
@@ -55,19 +56,19 @@ h2 > a {
 	text-decoration: none;
 	font-style: italic;
 	cursor: pointer;
-	color: ghostwhite;
+	color: floralwhite;
 
 }
 
 .header{
 	text-align: center;
-	padding-top: 15%;
+	padding-top: 13%;
 	width: 56%;
 	margin: auto;
 }
 
 .typed{
-	color: ghostwhite;
+	color: floralwhite;
 	font-style: italic;
 }
 
@@ -79,6 +80,15 @@ h2 > a {
 	0% { opacity:1; }
 	50% { opacity:0; }
 	100% { opacity:1; }
+}
+
+.footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(44, 6, 251, 0.76);
+  text-align: center;
 }
 
 .typed-fade-out{
