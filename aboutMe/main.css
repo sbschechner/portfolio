@@ -1,8 +1,11 @@
 
+
 .extra{
 	background: burlywood;
 	background-size: cover;
 	font-family: 'Raleway', sans-serif;
+	height: 100%;
+
 }
  
 
@@ -48,7 +51,9 @@ ol > a:hover{
 }
 
 main {
-	padding-top: 50px;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	min-height: 100%;
 }
 
 .title{
@@ -158,6 +163,7 @@ ul > li{
 #funFact{
 padding-left: 1%;
 padding-right: 1%;
+padding-top: 13%;
 }
 
 #feelgood:hover{
@@ -165,10 +171,9 @@ padding-right: 1%;
 }
 
 .footer{
-  position: relative;
-  right: 0;
-  bottom: 0;
-  left: 0;
+   position:relative;
+   bottom: 0;
+   width:100%;
   background-color: rgba(44, 6, 251, 0.76);
   text-align: center;
 }
