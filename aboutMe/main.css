@@ -178,3 +178,7 @@ padding-top: 13%;
   background-color: rgba(44, 6, 251, 0.76);
   text-align: center;
 }
+
+.footer > h3{
+	padding-top: 1%;
+}
