@@ -70,7 +70,7 @@ div > h1 {
 	padding-right:20px;
 	margin: 0 auto;
   display: inline-flex;
-  max-width: 80%;
+  width: 80%;
   text-align: center;
   color: floralwhite;
 }
