@@ -111,12 +111,14 @@ text-align: center;
 
 .imgCont{
 	width: 65%;
-	height: 35%;
+	height: 33%;
 	margin: auto;
+	border: black solid 2px;
 }
 
 .image{
 	width: 100%;
+	height: 100%;
 }
 
 #mongo{
