@@ -182,3 +182,60 @@ padding-top: 13%;
 .footer > h3{
 	padding-top: 1%;
 }
+
+@media only screen and (max-device-width: 740px) {
+    .header {
+        font-size:53px;
+        padding-top: 43%;
+    }
+
+    .navContainer{
+    	font-size: -webkit-xxx-large;
+    }
+
+    .navImg{
+    	display: none;
+    }
+
+    .footer{
+    	height: 6%;
+    	font-size: x-large;
+    }
+}
+
+@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .header {
+        font-size:53px;
+        padding-top: 27%;
+    }
+
+    .navContainer{
+    	font-size: -webkit-xxx-large;
+    }
+
+    .navImg{
+    	display: none;
+    }
+
+    .footer{
+    	height: 6%;
+    	font-size: x-large;
+    }
+}
+
+
+@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .header {
+        font-size:37px;
+        padding-top: 13%;
+    }
+
+    .navContainer{
+    	font-size: large;
+    }
+
+
+     .footer{
+    	font-size: x-large;
+    }
+}

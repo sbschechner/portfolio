@@ -103,3 +103,145 @@ img:hover{
   background-color: rgba(44, 6, 251, 0.76);
   text-align: center;
 }
+
+@media only screen and (max-device-width: 740px) {
+    .header {
+        font-size:53px;
+        padding-top: 27%;
+    }
+
+    .text{
+    	display: none;
+    }
+
+    .ContThumb{
+    padding-top: 20px;
+    margin: auto;
+    display: block;
+
+    }
+
+ 	#github{
+ 		width: 142px;
+ 	}
+
+ 	#email{
+ 		width: 160px;
+ 	}
+
+ 	#linkedIn{
+ 		width: 150px;
+ 	}
+
+ 	#angel{
+ 		width: 150px;
+ 	}
+
+    .navContainer{
+    	font-size: -webkit-xxx-large;
+    }
+
+    .navImg{
+    	display: none;
+    }
+
+    .footer{
+    	height: 6%;
+    	font-size: x-large;
+    }
+}
+
+@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .header {
+        font-size:53px;
+        padding-top: 19%;
+    }
+
+        .text{
+    	display: none;
+    }
+
+    .ContThumb{
+    padding-top: 20px;
+    margin: auto;
+    display: block;
+
+    }
+
+ 	#github{
+ 		width: 142px;
+ 	}
+
+ 	#email{
+ 		width: 160px;
+ 	}
+
+ 	#linkedIn{
+ 		width: 150px;
+ 	}
+
+ 	#angel{
+ 		width: 150px;
+ 	}
+
+    .navContainer{
+    	font-size: -webkit-xxx-large;
+    }
+
+    .navImg{
+    	display: none;
+    }
+
+    .footer{
+    	height: 6%;
+    	font-size: x-large;
+    }
+}
+
+
+@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .header {
+        font-size:37px;
+        padding-top: 0%;
+    }
+
+     .text{
+    display: none;
+    }
+
+
+    .thumbnails{
+    	padding-top: 0px;
+    }
+
+    .ContThumb{
+    padding-top: 20px;
+    margin: auto;
+    display: block;
+
+    }
+
+ 	#github{
+ 		width: 105px;
+ 	}
+
+ 	#email{
+ 		width: 100px;
+ 	}
+
+ 	#linkedIn{
+ 		width: 100px;
+ 	}
+
+ 	#angel{
+ 		width: 100px;
+ 	}
+
+    .navContainer{
+    	font-size: large;
+    }
+
+     .footer{
+    	font-size: x-large;
+    }
+}
