@@ -181,9 +181,62 @@ padding-top: 13%;
 
 .footer > h3{
 	padding-top: 1%;
+	color: floralwhite;
 }
 
-@media only screen and (max-device-width: 740px) {
+@media only screen and (max-device-width: 740px) and (orientation: portrait) {
+
+	.title{
+		padding-top: 9%;
+	}
+
+	.portrait{
+		padding-top: 5%;
+	}
+
+	.portImg{
+		width: 64%;
+	}
+
+.row{
+	display: initial;
+	padding: 0;
+}
+
+.box{
+	width: 74%;
+	margin-top: 10px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#funfact{
+	padding-top: 0;
+}
+
+table{
+	font-size: xx-large;
+	padding-left: 5%;
+}
+
+p, h3, h2, .box > ul{
+	font-size:xx-large;
+}
+    .navContainer{
+    	font-size: -webkit-xxx-large;
+    }
+
+    .navImg, .sarcastic, #sarcasticText{
+    	display: none;
+    }
+
+    .footer{
+    	height: 6%;
+    	font-size: x-large;
+    }
+}
+
+@media only screen and (max-device-width: 740px) and (orientation: landscape) {
     .header {
         font-size:53px;
         padding-top: 43%;
@@ -204,16 +257,49 @@ padding-top: 13%;
 }
 
 @media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: portrait) {
-    .header {
-        font-size:53px;
-        padding-top: 27%;
-    }
+	.title{
+		padding-top: 9%;
+	}
+
+	.portrait{
+		padding-top: 5%;
+	}
+
+	.portImg{
+		width: 64%;
+	}
+
+.row{
+	display: initial;
+	padding: 0;
+}
+
+.box{
+	width: 74%;
+	margin-top: 15px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#funfact{
+	padding-top: 0;
+}
+
+table{
+	font-size: xx-large;
+	padding-left: 5%;
+}
+
+p, h3, h2, .box > ul{
+	font-size:xx-large;
+}
+
 
     .navContainer{
     	font-size: -webkit-xxx-large;
     }
 
-    .navImg{
+    .navImg, .sarcastic, #sarcasticText{
     	display: none;
     }
 
@@ -229,12 +315,20 @@ padding-top: 13%;
         font-size:37px;
         padding-top: 13%;
     }
+	
+	.aboutMeText{
+		padding-left: 13%;
+	}
+
+	.sarcastic, #sarcasticText{
+    	display: none;
+    }
 
     .navContainer{
     	font-size: large;
     }
 
-
+    
      .footer{
     	font-size: x-large;
     }

@@ -96,6 +96,7 @@ img:hover{
 }
 
 .footer{
+	color:floralwhite;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -104,7 +105,7 @@ img:hover{
   text-align: center;
 }
 
-@media only screen and (max-device-width: 740px) {
+@media only screen and (max-device-width: 740px) and (orientation: portrait) {
     .header {
         font-size:53px;
         padding-top: 27%;
@@ -120,6 +121,55 @@ img:hover{
     display: block;
 
     }
+
+ 	#github{
+ 		width: 142px;
+ 	}
+
+ 	#email{
+ 		width: 160px;
+ 	}
+
+ 	#linkedIn{
+ 		width: 150px;
+ 	}
+
+ 	#angel{
+ 		width: 150px;
+ 	}
+
+    .navContainer{
+    	font-size: -webkit-xxx-large;
+    }
+
+    .navImg{
+    	display: none;
+    }
+
+    .footer{
+    	height: 6%;
+    	font-size: x-large;
+    }
+}
+
+@media only screen and (max-device-width: 740px) and (orientation: landscape) {
+    .header {
+        font-size:34px;
+        padding-top: 10%;
+    }
+
+    .text{
+    	display: none;
+    }
+
+    .thumbnails{
+    	display: flex;
+    	padding-top: 0%;
+    }
+
+	.ContThumb{
+		padding-left: 35%;
+	}
 
  	#github{
  		width: 142px;

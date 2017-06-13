@@ -84,6 +84,7 @@ h2 > a {
 }
 
 .footer{
+	color: floralwhite;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -99,10 +100,30 @@ h2 > a {
 }
 
 
-@media only screen and (max-device-width: 740px) {
+@media only screen and (max-device-width: 740px) and (orientation: portrait) {
     .header {
         font-size:53px;
         padding-top: 43%;
+    }
+
+    .navContainer{
+    	font-size: -webkit-xxx-large;
+    }
+
+    .navImg{
+    	display: none;
+    }
+
+    .footer{
+    	height: 6%;
+    	font-size: x-large;
+    }
+}
+
+@media only screen and (max-device-width: 740px) and (orientation: landscape) {
+    .header {
+        font-size:26px;
+        padding-top: 19%;
     }
 
     .navContainer{
