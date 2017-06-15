@@ -174,19 +174,31 @@ display: none;
 @media only screen and (max-device-width: 740px) and (orientation: portrait) {
     .header {
         font-size:53px;
-        padding-top: 43%;
+        padding-top: 0%;
     }
 
     .navContainer{
     	font-size: -webkit-xxx-large;
     }
 
-    	.col-3{
-		width: 25%;
-    display: block;
-	}
+.portfolioBody{
+	padding-top: 19%;
+	font-size: xx-large;
+}
 
+.row{
+	display: block;
+	padding-top: 5%;
 
+}
+
+.projDescrip{
+	font-size: 40px;
+}
+
+.langImgCont{
+	padding-bottom: 0%;
+}
     .navImg{
     	display: none;
     }
@@ -200,9 +212,17 @@ display: none;
 @media only screen and (max-device-width: 740px) and (orientation: landscape) {
     .header {
         font-size:26px;
-        padding-top: 19%;
+        padding-top: 10%;
     }
 
+.portfolioBody{
+	padding-top: 19%;
+	font-size: x-large;
+}
+
+.langImgCont{
+	padding-bottom: 19%;
+}
     .navContainer{
     	font-size: -webkit-xxx-large;
     }
@@ -220,13 +240,31 @@ display: none;
 @media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: portrait) {
     .header {
         font-size:53px;
-        padding-top: 27%;
+        padding-top: 0%;
     }
 
     .navContainer{
     	font-size: -webkit-xxx-large;
     }
 
+.portfolioBody{
+	padding-top: 19%;
+	font-size: xx-large;
+}
+
+.row{
+	display: block;
+	padding-top: 5%;
+
+}
+
+.projDescrip{
+	font-size: xx-large;
+}
+
+.langImgCont{
+	padding-bottom: 0%;
+}
     .navImg{
     	display: none;
     }
@@ -236,7 +274,6 @@ display: none;
     	font-size: x-large;
     }
 }
-
 
 @media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: landscape) {
     .header {
