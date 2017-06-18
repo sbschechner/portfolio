@@ -146,6 +146,7 @@ button{
 	color: #7d4627;
 	border-radius: 4px;
 	margin: 4px;
+	cursor: pointer;
 }
 
 .buttons>a{
