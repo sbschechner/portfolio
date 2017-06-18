@@ -1,13 +1,13 @@
 
 .extra{
-	background: burlywood;
+	background: #edd9c0;
 	background-size: cover;
 	font-family: 'Raleway', sans-serif;
 }
 
 
 .navContainer{
-	background-color: rgba(44, 6, 251, 0.76);
+	background-color: #a8b6bf;
 	position: fixed;
 	border: black solid;
 	width: 100%;
@@ -40,7 +40,7 @@ ul > ol {
 }
 
 ol > a {
-	color: floralwhite;
+	color: #7d4627;
 }
 
 ol > a:hover{
@@ -57,13 +57,13 @@ main {
 	text-align: center;
 	padding-top: 5%;
 	padding-bottom: 2%;
-	color:floralwhite;
+	color:#7d4627;
 }
 
 .text{
 	text-align: center;
 	font-style: italic; 
-	color: floralwhite;
+	color: #7d4627;
 	padding-bottom: 3%;
 }
 
@@ -96,12 +96,12 @@ img:hover{
 }
 
 .footer{
-	color:floralwhite;
+	color:#7d4627;
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(44, 6, 251, 0.76);
+  background-color: #a8b6bf;
   text-align: center;
 }
 
