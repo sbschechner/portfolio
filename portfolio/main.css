@@ -141,6 +141,17 @@ text-align: center;
 	padding-right: 2%;
 }
 
+button{
+	background-color: #a8b6bf;
+	color: #7d4627;
+	border-radius: 4px;
+	margin: 4px;
+}
+
+.buttons>a{
+	text-decoration:  none;
+}
+
 .langDescrip{
 	display: flex;
 }
