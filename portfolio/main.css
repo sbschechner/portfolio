@@ -207,9 +207,14 @@ display: none;
 	font-size: 40px;
 }
 
+button{
+	font-size:larger;
+}
+
 .langImgCont{
 	padding-bottom: 0%;
 }
+
     .navImg{
     	display: none;
     }
@@ -229,6 +234,10 @@ display: none;
 .portfolioBody{
 	padding-top: 19%;
 	font-size: x-large;
+}
+
+button{
+	font-size:larger;
 }
 
 .langImgCont{
@@ -269,6 +278,10 @@ display: none;
 
 }
 
+button{
+	font-size:larger;
+}
+
 .projDescrip{
 	font-size: xx-large;
 }
@@ -296,6 +309,9 @@ display: none;
     	font-size: large;
     }
 
+button{
+	font-size:larger;
+}
 
      .footer{
     	font-size: x-large;
