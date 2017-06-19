@@ -10,7 +10,7 @@
 
 
 .navContainer{
-	background-color: #a8b6bf;
+	background-color: #b2d8f1;
 	position: fixed;
 	border: black solid;
 	width: 100%;
@@ -89,7 +89,7 @@ h2 > a {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #a8b6bf;
+  background-color: #b2d8f1;
   text-align: center;
 }
 
