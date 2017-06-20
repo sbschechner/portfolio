@@ -1,12 +1,12 @@
 //state
 var state = {
 	factArr :	[
-		"Benjy's first name is actually Sheridan",
-		"In High School, Benjy was on the cover of NJ Monthly",
-		"Benjy usually eats 1 slice of $1 pizza a day",
-		"In High School, Benjy ran hurdles",
-		"In College, Benjy studied Neuroscience and Behavior",
-		"Benjy is in a Documentary Club",
+		"My first name is actually Sheridan",
+		"In High School, I was on the cover of NJ Monthly",
+		"I usually eats 1 slice of $1 pizza a day",
+		"In High School, I ran hurdles",
+		"In College, I studied Neuroscience and Behavior",
+		"I am in a Documentary Club",
 			],
 	imgArr : [
 		"./images/winter.jpg",
