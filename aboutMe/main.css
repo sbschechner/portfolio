@@ -110,7 +110,7 @@ main {
     border-radius: 6px;
 }
 
-.box:hover{
+#hover:hover{
 color:white;
 }
 
