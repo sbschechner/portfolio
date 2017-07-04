@@ -13,7 +13,6 @@ var state = {
 		"./images/nature.jpg",
 		"./images/hike.jpg",
 		"./images/sun.JPG",
-		"./images/pineapple.JPG",
 		"./images/nature2.jpg",
 	],
 
