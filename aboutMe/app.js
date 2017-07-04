@@ -1,13 +1,13 @@
 //state
 var state = {
 	factArr :	[
-		"I drink soylent 3x per week",
 		"My biggest vice is $1 pizza",
 		"My first name is actually Sheridan",
 		"I was on the cover of NJ Monthly",
 		"I run a documentary club",
 		"I ran a grilled cheese delivery business in college"
 			],
+
 	imgArr : [
 		"./images/winter.jpg",
 		"./images/nature.jpg",
@@ -23,7 +23,7 @@ var state = {
 //modify state
 
 var randomSelection = function(state){
-	state.counter = Math.floor(Math.random()*6);
+	state.counter = Math.floor(Math.random()*5);
 }
 
 
