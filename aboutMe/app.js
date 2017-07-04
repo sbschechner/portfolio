@@ -1,12 +1,13 @@
 //state
 var state = {
 	factArr :	[
-		"My first name is actually Sheridan",
-		"In High School, I was on the cover of NJ Monthly",
-		"I usually eats 1 slice of $1 pizza a day",
-		"In High School, I ran hurdles",
-		"In College, I studied Neuroscience and Behavior",
-		"I am in a Documentary Club",
+		"I drink soylent 3x per week",
+		"In previous roles, I have worn both a fish and a grilled cheese mascot costume",
+		"My biggest vice is $1 pizza",
+		"I belong to to different clothing subscription boxes",
+		"Due to construction, I once had to use 6 forms of of transportation to get to work: Boat, Subway, Bus, Bike, Car, Train",
+		"I run a documentary club",
+		"Winner of the 2011 Millburn Deli Sandwich Run"
 			],
 	imgArr : [
 		"./images/winter.jpg",
@@ -23,7 +24,7 @@ var state = {
 //modify state
 
 var randomSelection = function(state){
-	state.counter = Math.floor(Math.random()*6);
+	state.counter = Math.floor(Math.random()*7);
 }
 
 
