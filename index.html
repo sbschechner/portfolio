@@ -19,14 +19,14 @@
 <body class="extra">
 	<header class="navContainer">
 		<div class="navImg">
-			<a href="./index.html"> <img class="images" src="./profile.jpg"> </a>
+			<a href="#splash"> <img class="images" src="./home.png"> </a>
 		</div>
 
 		<div class="navLinks">
 			<ul>
 				<ol id="name"> <a href="#aboutMe"> Benjamin Schechner</a></ol>
 				<ol> <a href = "#splash"> Top </a></ol>	
-				<ol> <a href = "#portfolioBody"> Portfolio</a></ol>
+				<ol> <a href = "#sales"> Portfolio</a></ol>
 				<ol> <a href="#aboutMe"> About Me </a></ol>
 				<ol> <a href="#contactMe"> Contact </a></ol>
 			</ul>
@@ -46,16 +46,98 @@
 		<br>
 		<br>
 		<br>
-Feel free to <a href =" #portfolioBody"> explore my projects </a> and <a href="#contactMe"> reach out!</a>
+Feel free to <a href =" #sales"> explore my page </a> and <a href="#contactMe"> reach out!</a>
 	</h2>
+	<div class=" splashRow">
+		<div class="col-3 fade-in splashLeft ">
+			<h2> Sales </h2>
+		</div>
+		<div class="col-3 fade-in splashMid">
+			<h2> Product </h2>
+		</div>
+		<div class="col-3 fade-in splashRight">
+			<h2> Development </h2>
+		</div>
+	</div>
+
+	<div class="fade-in scrollMore">
+		<h2> Scroll Down For More </h2>
+	</div>
+
 </div>
 
 <div class="header-spacer">
 </div>
 
+<div id="sales">
+	<h1> Sales Director </h1>
+	<h3> Thinkful Programming Bootcamp</h3>
+	<div class="salesRow">
+		<div class="col-2">	
+				<ul class="resumeList">
+					<li>Lead Sales Effectiveness Initiatives across Marketing, New Markets, Operations and Product teams</li>
+
+					<li> Pitch and close prospective students via phone, email and demos, averaging 50 students per month</li>
+
+					<li>Communicate Web Development and Data Science concepts to students with various technical experience</li>
+
+					<li>Conducted Market Research to explore new customer segmentation and user journeys during market expansion </li>
+
+				</ul>
+		</div>
+
+		<div class ="col-2 video">
+			<div class="vidContainer">
+				
+				<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/d2eQ1qFpAWY?start=0" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="connectToContact">
+		<a href="#contactMe"> <h3 id="contactMeButton"> Contact Me </h3>  </a>
+	</div>
+</div>
+
+<div id="product">
+
+	<h1> Product Specialist </h1>
+	<h3> MasterCard </h3>
+	<div class="productRow">
+		<div class ="col-2 ">
+			<div class ="productCont">
+				<img class="image" src="./thumbnails/mastercard.png">
+			</div>
+		</div>
+
+		<div class="col-2 productList">	
+				<ul class="resumeList">
+					<li>Applied Agile and Project Management Excellence Frameworks to the Media Measurement product</li>
+
+					<li>Managed seven key clients for Media Measurement product: onboarding and presenting findings</li>
+
+					<li>Coordinated product delivery between Sales, Production and Client teams to ensure revenue recognition</li>
+
+					<li>Built several Excel revenue forecasting models to test new product ideas and predict addressable market</li>
+
+				</ul>
+		</div>
+
+	</div>
+
+	<div class="connectToContact">
+		<a href="#contactMe"> <h3 id="contactMeButton"> Contact Me </h3>  </a>
+	</div>
+
+</div>
+
+
+
 <div id="portfolioBody">	
-		<H1> MY PORTFOLIO
-		</H1>
+		<h1> Full Stack Developer
+		</h1>
+		<h3> Freelance </h3>
 		<div class="row">
 			<div class="col-3 left ">
 				<h2 class="header">
@@ -77,13 +159,43 @@ Feel free to <a href =" #portfolioBody"> explore my projects </a> and <a href="#
 				</div>	
 				<div class="langDescrip">
 					<div class = "langImgCont">	
-						<img class="image" src="./thumbnails/nodejs-icon1.png">
+						<img class="langImage" src="./thumbnails/nodejs-icon1.png">
 					</div>
 					<div class = "langImgCont">	
-						<img class="image" id= "mongo" src="./thumbnails/mongodb-logo.png">
+						<img class="langImage" id= "mongo" src="./thumbnails/mongodb-logo.png">
 					</div>
 					<div class = "langImgCont">	
-						<img class="image" src="./thumbnails/jQuery-logo1.png">
+						<img class="langImage" src="./thumbnails/jQuery-logo1.png">
+					</div>
+				</div>
+			</div>
+		<div class="col-3 mid">
+				<h2 class="header" id="longHeader">
+					Around The Neighborhood
+				</h2>
+				<div class="imgCont">
+					 <a target ="_blank" href="https://google.com"> <img class="image" src="./thumbnails/underConstruction.jpeg"> </a>
+					 
+				</div>
+				<p class="projDescrip">
+				An app to see whats in the neighboorhood
+				</p>
+				<div class="buttons">
+					<a target="_blank" href="https://github.com/sbschechner/capstone-backend"> <button> Github  </button> </a>
+					
+					<a target ="_blank" href="https://shrouded-bayou-70080.herokuapp.com/"> <button>
+							Live Demo
+					</button> </a>
+				</div>	
+				<div class="langDescrip">
+					<div class = "langImgCont">	
+						<img class="langImage" src="./thumbnails/nodejs-icon1.png">
+					</div>
+					<div class = "langImgCont">	
+						<img class="langImage" id= "maps" src="./thumbnails/googleMaps.png">
+					</div>
+					<div class = "langImgCont">	
+						<img class="langImage" id ="react" src="./thumbnails/React-icon1.svg.png">
 					</div>
 				</div>
 			</div>
@@ -106,16 +218,20 @@ Feel free to <a href =" #portfolioBody"> explore my projects </a> and <a href="#
 				</div>	
 		<div class="langDescrip">
 				<div class = "langImgCont">
-					<img class="image" src="./thumbnails/React-icon1.svg.png">
+					<img class="langImage" id ="react" src="./thumbnails/React-icon1.svg.png">
 				</div>
 				<div class = "langImgCont">
-					<img class="image" src="./thumbnails/nytimes-logo.gif">
+					<img class="langImage" src="./thumbnails/nytimes-logo.gif">
 				</div>
 				<div class = "langImgCont">	
-					<img class="image" src="./thumbnails/openWeather.png">
+					<img class="langImage" src="./thumbnails/openWeather.png">
 				</div>	
 				</div>
 			</div>
+		</div>
+
+		<div class="connectToContact">
+			<a href="#contactMe"> <h3 id="devContactMeButton"> Contact Me </h3>  </a>
 		</div>
 	</div>
 
@@ -248,7 +364,7 @@ Feel free to <a href =" #portfolioBody"> explore my projects </a> and <a href="#
 	</div>
 	
 </div>
-
+</body>
 
 <div class="footer">
 <h3> &copy; 2017 Benjamin Schechner </h3>
@@ -259,8 +375,8 @@ Feel free to <a href =" #portfolioBody"> explore my projects </a> and <a href="#
 <script type="text/javascript">
 	$(function(){
         $(".typed").typed({
-            strings: ["developer ^500", "global citizen ^500", "grilled cheese enthusiast ^500", "programmer"],
-            typeSpeed: 1,
+            strings: ["Sales Director ^500", "Product Manager ^500", "Full Stack Developer ^500", "Global Citizen"],
+            typeSpeed: 1.4,
         });
     });
 </script>

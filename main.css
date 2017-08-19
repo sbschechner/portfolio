@@ -15,8 +15,7 @@
 	position: fixed;
 	border-bottom: black solid;
 	width: 100%;
-
-
+	z-index: 500;
 
 }
 
@@ -39,10 +38,6 @@
 .navImg{
 	position: absolute;
 
-}
-
-#splash{
-margin-bottom: 15%;
 }
 
 .images{
@@ -75,7 +70,7 @@ h2 > a {
 
 .header{
 	text-align: center;
-	padding-top: 15%;
+	padding-top: 10%;
 	width: 56%;
 	margin: auto;
 	font-family: 'Raleway', sans-serif;
@@ -103,6 +98,179 @@ h2 > a {
     transition: opacity .25s;
 }
 
+.splashRow{
+	display: inline-flex;
+	color: #7d4627;
+	padding-top: 7%;
+	padding-left: 28%;
+}
+
+.col-3 > a{
+	text-decoration: none;
+}
+
+.splashRow > .splashMid{
+	padding-left: 65%;
+}
+
+.splashRow > .splashRight{
+	padding-left: 65%;
+}
+
+.scrollMore{
+	padding-top: 3%;
+	text-align: center;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.splashLeft {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.fade-in.splashMid {
+  -webkit-animation-delay: 2.8s;
+  -moz-animation-delay:2.8s;
+  animation-delay: 2.8s;
+}
+
+.fade-in.splashRight {
+  -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.fade-in.scrollMore {
+  -webkit-animation-delay: 7s;
+  -moz-animation-delay: 7s;
+  animation-delay: 7s;
+}
+
+#sales{
+	background: #e4eff7;
+}
+
+#sales > h1{
+	text-align: center;
+	padding-top: 5%;
+}
+
+#sales > h3 {
+	text-align: center;
+	font-style: italic;
+}
+
+.salesRow{
+	margin: auto;
+}
+
+.salesRow::before, .salesRow::after{
+	display: table;
+	content: '';
+}
+
+.salesRow::after{
+	clear:both;
+}
+
+.col-2{
+	float:left;
+	padding-left:1.041%;
+	padding-right:1.041%;
+	width:16.667%;
+}
+
+.resumeList{
+	margin-top: 0;
+}
+
+.resumeList > li{
+	min-width: 850px;
+	padding-top: 20%;
+	color: #7d4627
+}
+
+.video{
+margin-left: 44%;
+}
+
+.vidContainer{
+width: 500px;
+}
+
+.connectToContact{
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+#contactMeButton{
+	padding-top: 3%;
+	margin-bottom: 0%; 
+}
+
+#product{
+	background: #e4e3e1;
+}
+
+#product> h1{
+	text-align: center;
+	padding-top: 5%;
+	margin-top: 0;
+}
+
+#product > h3 {
+	text-align: center;
+	font-style: italic;
+}
+
+.productRow{
+	margin: auto;
+	display: inline-flex;
+}
+
+.productRow::before, .salesRow::after{
+	display: table;
+	content: '';
+}
+
+.productRow::after{
+	clear:both;
+}
+
+
+.productCont{
+	margin-left:15%; 
+	height: 40%;
+	min-width: 150%;
+}
+
+.productList{
+margin-left: 17%;
+}
+
+.productList > .resumeList{
+margin-top: 10%;
+}
+
 #portfolioBody{
 	background: #e4eff7;
 }
@@ -110,6 +278,12 @@ h2 > a {
 #portfolioBody > h1{
 	text-align: center;
 	padding-top: 5%;
+	margin-top:0;
+}
+
+#portfolioBody >h3{
+	text-align: center;
+	font-style: italic;
 }
 
 .images{
@@ -177,6 +351,7 @@ div > h1 {
 
 .header{
 text-align: center;
+padding-bottom: 10px;
 }
 
 .imgCont{
@@ -185,7 +360,6 @@ text-align: center;
 	margin: auto;
 
 }
-
 
 .image{
 	width: 100%;
@@ -197,12 +371,39 @@ text-align: center;
 	font-style: italic;
 }
 
+#mongo{
+	height: 58%;
+	padding-top: 25%;
+}
+
+#react{
+height: 90%
+}
+
+#longHeader{
+	min-width: 100%;
+}
+
+#maps{
+	height: 48%;
+	width: 64%;	
+	padding-top: 25%;
+}
 .langImgCont{
 	width: 35%;
 	height: 25%;
 	padding-bottom: 25%;
 	padding-top: 4%;
 	padding-right: 2%;
+}
+
+.langImage{
+	width: 100%;
+	height: 100%;
+}
+
+.langImage:hover{
+cursor: auto;
 }
 
 button{
@@ -222,6 +423,12 @@ button{
 	display: flex;
 }
 
+#devContactMeButton{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
 .footer{
   background-color: #e4eff7;
   text-align: center;
@@ -237,225 +444,11 @@ button{
 	margin-top:0;
 }
 
-.hidden{
-display: none;
-}
 
 .header-spacer{
 	padding-bottom:50px;
 }
 
-@media only screen and (max-device-width: 740px) and (orientation: portrait) {
-    .header {
-        font-size:53px;
-        padding-top: 0%;
-    }
-
-    .navContainer{
-    	font-size: -webkit-xxx-large;
-    }
-
-.portfolioBody{
-	padding-top: 19%;
-	font-size: xx-large;
-}
-
-.row{
-	display: block;
-	padding-top: 5%;
-
-}
-
-.projDescrip{
-	font-size: 40px;
-}
-
-button{
-	font-size:larger;
-}
-
-.langImgCont{
-	padding-bottom: 0%;
-}
-
-    .navImg{
-    	display: none;
-    }
-
-    .footer{
-    	height: 6%;
-    	font-size: x-large;
-    }
-}
-
-@media only screen and (max-device-width: 740px) and (orientation: landscape) {
-    .header {
-        font-size:26px;
-        padding-top: 10%;
-    }
-
-.portfolioBody{
-	padding-top: 19%;
-	font-size: x-large;
-}
-
-button{
-	font-size:larger;
-}
-
-.langImgCont{
-	padding-bottom: 19%;
-}
-    .navContainer{
-    	font-size: -webkit-xxx-large;
-    }
-
-    .navImg{
-    	display: none;
-    }
-
-    .footer{
-    	height: 6%;
-    	font-size: x-large;
-    }
-}
-
-@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: portrait) {
-    .header {
-        font-size:53px;
-        padding-top: 0%;
-    }
-
-    .navContainer{
-    	font-size: -webkit-xxx-large;
-    }
-
-.portfolioBody{
-	padding-top: 19%;
-	font-size: xx-large;
-}
-
-.row{
-	display: block;
-	padding-top: 5%;
-
-}
-
-button{
-	font-size:larger;
-}
-
-.projDescrip{
-	font-size: xx-large;
-}
-
-.langImgCont{
-	padding-bottom: 0%;
-}
-    .navImg{
-    	display: none;
-    }
-
-    .footer{
-    	height: 6%;
-    	font-size: x-large;
-    }
-}
-
-@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .header {
-        font-size:37px;
-        padding-top: 13%;
-    }
-
-    .navContainer{
-    	font-size: large;
-    }
-
-button{
-	font-size:larger;
-}
-
-     .footer{
-    	font-size: x-large;
-    }
-}
-@media only screen and (max-device-width: 740px) and (orientation: portrait) {
-    .header {
-        font-size:53px;
-        padding-top: 38%;
-    }
-
-    .navContainer{
-    	font-size: -webkit-xxx-large;
-    }
-
-    .navImg{
-    	display: none;
-    }
-
-    .footer{
-    	height: 6%;
-    	font-size: x-large;
-    }
-}
-
-@media only screen and (max-device-width: 740px) and (orientation: landscape) {
-    .header {
-        font-size:26px;
-        padding-top: 19%;
-    }
-
-    .navContainer{
-    	font-size: -webkit-xxx-large;
-    }
-
-    .navImg{
-    	display: none;
-    }
-
-    .footer{
-    	height: 6%;
-    	font-size: x-large;
-    }
-}
-
-@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: portrait) {
-    .header {
-        font-size:53px;
-        padding-top: 27%;
-    }
-
-    .navContainer{
-    	font-size: -webkit-xxx-large;
-    }
-
-    .navImg{
-    	display: none;
-    }
-
-    .footer{
-    	height: 6%;
-    	font-size: x-large;
-    }
-}
-
-
-@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .header {
-        font-size:37px;
-        padding-top: 13%;
-    }
-
-    .navContainer{
-    	font-size: large;
-    }
-
-
-     .footer{
-    	font-size: x-large;
-    }
-}
 
 #aboutMe{
 	background: #e4e3e1;
@@ -502,8 +495,6 @@ button{
 	max-width: 325px;
 	border:#b2d8f1 solid;
 }
-
-
 
 
 .aboutMeText{
@@ -663,14 +654,197 @@ img:hover{
 	text-decoration: none;
 }
 
-
 @media only screen and (max-device-width: 740px) and (orientation: portrait) {
     .header {
+        font-size:53px;
+        padding-top: 0%;
+    }
+
+    .navContainer{
+    	font-size: -webkit-xxx-large;
+    }
+
+.portfolioBody{
+	padding-top: 19%;
+	font-size: xx-large;
+}
+
+.row{
+	display: block;
+	padding-top: 5%;
+
+}
+
+.projDescrip{
+	font-size: 40px;
+}
+
+button{
+	font-size:larger;
+}
+
+.langImgCont{
+	padding-bottom: 0%;
+}
+
+    .navImg{
+    	display: none;
+    }
+
+    .footer{
+    	height: 6%;
+    	font-size: x-large;
+    }
+
+    #aboutMe > .header {
         font-size:53px;
         padding-top: 27%;
     }
 
-    .text{
+    #aboutMe > .text{
+    	display: none;
+    }
+
+    #aboutMe > .ContThumb{
+    padding-top: 20px;
+    margin: auto;
+    display: block;
+
+    }
+
+ 	#github{
+ 		width: 142px;
+ 	}
+
+ 	#email{
+ 		width: 160px;
+ 	}
+
+ 	#linkedIn{
+ 		width: 150px;
+ 	}
+
+ 	#angel{
+ 		width: 150px;
+ 	}
+
+
+}
+
+@media only screen and (max-device-width: 740px) and (orientation: landscape) {
+    .header {
+        font-size:26px;
+        padding-top: 10%;
+    }
+
+.portfolioBody{
+	padding-top: 19%;
+	font-size: x-large;
+}
+
+button{
+	font-size:larger;
+}
+
+.langImgCont{
+	padding-bottom: 19%;
+}
+    .navContainer{
+    	font-size: -webkit-xxx-large;
+    }
+
+    .navImg{
+    	display: none;
+    }
+
+    .footer{
+    	height: 6%;
+    	font-size: x-large;
+    }
+
+    #contactMe > .header {
+        font-size:34px;
+        padding-top: 10%;
+    }
+
+    #contactMe > .text{
+    	display: none;
+    }
+
+    #contactMe > .thumbnails{
+    	display: flex;
+    	padding-top: 0%;
+    }
+
+	#contactMe > .ContThumb{
+		padding-left: 35%;
+	}
+
+ 	#github{
+ 		width: 142px;
+ 	}
+
+ 	#email{
+ 		width: 160px;
+ 	}
+
+ 	#linkedIn{
+ 		width: 150px;
+ 	}
+
+ 	#angel{
+ 		width: 150px;
+ 	}
+
+}
+
+@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .header {
+        font-size:53px;
+        padding-top: 0%;
+    }
+
+    .navContainer{
+    	font-size: -webkit-xxx-large;
+    }
+
+.portfolioBody{
+	padding-top: 19%;
+	font-size: xx-large;
+}
+
+.row{
+	display: block;
+	padding-top: 5%;
+
+}
+
+button{
+	font-size:larger;
+}
+
+.projDescrip{
+	font-size: xx-large;
+}
+
+.langImgCont{
+	padding-bottom: 0%;
+}
+    .navImg{
+    	display: none;
+    }
+
+    .footer{
+    	height: 6%;
+    	font-size: x-large;
+    }
+
+        .header {
+        font-size:53px;
+        padding-top: 19%;
+    }
+
+        .text{
     	display: none;
     }
 
@@ -696,6 +870,33 @@ img:hover{
  	#angel{
  		width: 150px;
  	}
+}
+
+@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .header {
+        font-size:37px;
+        padding-top: 13%;
+    }
+
+    .navContainer{
+    	font-size: large;
+    }
+
+button{
+	font-size:larger;
+}
+
+     .footer{
+    	font-size: x-large;
+    }
+
+
+}
+@media only screen and (max-device-width: 740px) and (orientation: portrait) {
+    .header {
+        font-size:53px;
+        padding-top: 38%;
+    }
 
     .navContainer{
     	font-size: -webkit-xxx-large;
@@ -713,38 +914,9 @@ img:hover{
 
 @media only screen and (max-device-width: 740px) and (orientation: landscape) {
     .header {
-        font-size:34px;
-        padding-top: 10%;
+        font-size:26px;
+        padding-top: 19%;
     }
-
-    .text{
-    	display: none;
-    }
-
-    .thumbnails{
-    	display: flex;
-    	padding-top: 0%;
-    }
-
-	.ContThumb{
-		padding-left: 35%;
-	}
-
- 	#github{
- 		width: 142px;
- 	}
-
- 	#email{
- 		width: 160px;
- 	}
-
- 	#linkedIn{
- 		width: 150px;
- 	}
-
- 	#angel{
- 		width: 150px;
- 	}
 
     .navContainer{
     	font-size: -webkit-xxx-large;
@@ -761,6 +933,24 @@ img:hover{
 }
 
 @media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .header {
+        font-size:53px;
+        padding-top: 27%;
+    }
+
+    .navContainer{
+    	font-size: -webkit-xxx-large;
+    }
+
+    .navImg{
+    	display: none;
+    }
+
+    .footer{
+    	height: 6%;
+    	font-size: x-large;
+    }
+
     .header {
         font-size:53px;
         padding-top: 19%;
@@ -792,24 +982,24 @@ img:hover{
  	#angel{
  		width: 150px;
  	}
-
-    .navContainer{
-    	font-size: -webkit-xxx-large;
-    }
-
-    .navImg{
-    	display: none;
-    }
-
-    .footer{
-    	height: 6%;
-    	font-size: x-large;
-    }
 }
 
 
 @media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: landscape) {
     .header {
+        font-size:37px;
+        padding-top: 13%;
+    }
+
+    .navContainer{
+    	font-size: large;
+    }
+
+     .footer{
+    	font-size: x-large;
+    }
+
+        .header {
         font-size:37px;
         padding-top: 0%;
     }
@@ -846,11 +1036,5 @@ img:hover{
  		width: 100px;
  	}
 
-    .navContainer{
-    	font-size: large;
-    }
-
-     .footer{
-    	font-size: x-large;
-    }
 }
+
