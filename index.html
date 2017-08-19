@@ -10,7 +10,7 @@
 	<meta name="keywords" content="Benjamin Schechner, Schechner, Benjamin, Sheridan, Developer, software engineer, full stack, javascript">
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.7/typed.min.js"></script>
-	<link rel="icon" href="./cheese.jpg">
+	<link rel="icon" href="./profile.jpg">
 	<meta property=”og:title” content=”Portfolio-Site” />
 	<meta property=”og:url” content=”http://www.BenjaminSchechner.us” />
 	<meta property=”og:image” content=”http://www.BenjaminSchechner.us/profile.jpg” />
@@ -19,22 +19,23 @@
 <body class="extra">
 	<header class="navContainer">
 		<div class="navImg">
-			<a href="./index.html"> <img class="images" src="./cheese.jpg"> </a>
+			<a href="./index.html"> <img class="images" src="./profile.jpg"> </a>
 		</div>
 
 		<div class="navLinks">
 			<ul>
-				<ol> <a href = "./index.html"> Home </a></ol>	
-				<ol> <a href = "./portfolio/index.html"> Portfolio</a></ol>
-				<ol> <a href="./aboutMe/index.html"> About Me </a></ol>
-				<ol> <a href="./Contact/index.html"> Contact </a></ol>
+				<ol id="name"> <a href="#aboutMe"> Benjamin Schechner</a></ol>
+				<ol> <a href = "#splash"> Top </a></ol>	
+				<ol> <a href = "#portfolioBody"> Portfolio</a></ol>
+				<ol> <a href="#aboutMe"> About Me </a></ol>
+				<ol> <a href="#contactMe"> Contact </a></ol>
 			</ul>
 		</div>
 	</header>
-<main>
+<div id="splash">
 	<h2 class="header">
 
-		Hey there! My name is <a href="./aboutMe/index.html">Benjamin Schechner </a> and I am a 
+		Hey there! My name is <a href="#aboutMe">Benjamin Schechner </a> and I am a 
 		<br>
 		<br>
 		<span class="typed">  </span>
@@ -45,13 +46,215 @@
 		<br>
 		<br>
 		<br>
-Feel free to <a href =" ./portfolio/index.html"> explore my projects </a> and <a href="./Contact/index.html"> reach out!</a>
+Feel free to <a href =" #portfolioBody"> explore my projects </a> and <a href="#contactMe"> reach out!</a>
 	</h2>
-</main>
+</div>
+
+<div class="header-spacer">
+</div>
+
+<div id="portfolioBody">	
+		<H1> MY PORTFOLIO
+		</H1>
+		<div class="row">
+			<div class="col-3 left ">
+				<h2 class="header">
+					Who Paid?
+				</h2>
+				<div class="imgCont">
+					 <a target ="_blank" href="https://shrouded-bayou-70080.herokuapp.com/"> <img class="image" src="./thumbnails/whopaid.png"> </a>
+					 
+				</div>
+				<p class="projDescrip">
+				An app to keep track of who paid what
+				</p>
+				<div class="buttons">
+					<a target="_blank" href="https://github.com/sbschechner/capstone-backend"> <button> Github  </button> </a>
+					
+					<a target ="_blank" href="https://shrouded-bayou-70080.herokuapp.com/"> <button>
+							Live Demo
+					</button> </a>
+				</div>	
+				<div class="langDescrip">
+					<div class = "langImgCont">	
+						<img class="image" src="./thumbnails/nodejs-icon1.png">
+					</div>
+					<div class = "langImgCont">	
+						<img class="image" id= "mongo" src="./thumbnails/mongodb-logo.png">
+					</div>
+					<div class = "langImgCont">	
+						<img class="image" src="./thumbnails/jQuery-logo1.png">
+					</div>
+				</div>
+			</div>
+		<div class="col-3 right ">
+				<h2 class="header">
+					GetReady
+				</h2>
+				<div class="imgCont">
+					<a target="_blank" href="https://courier-kangaroo-15044.netlify.com">  <img class="image" src="./thumbnails/coffee.png"> </a>
+				</div>	
+				<p class="projDescrip">
+				An app to get the time, weather and daily news
+				</p>
+				<div class="buttons">
+					<a target="_blank" href="https://github.com/sbschechner/weatherTime"> <button> Github  </button> </a>
+					
+					<a target="_blank" href="https://courier-kangaroo-15044.netlify.com"> <button>
+							Live Demo
+					</button> </a>
+				</div>	
+		<div class="langDescrip">
+				<div class = "langImgCont">
+					<img class="image" src="./thumbnails/React-icon1.svg.png">
+				</div>
+				<div class = "langImgCont">
+					<img class="image" src="./thumbnails/nytimes-logo.gif">
+				</div>
+				<div class = "langImgCont">	
+					<img class="image" src="./thumbnails/openWeather.png">
+				</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div id="aboutMe">
+	<h1 class="title">
+		ABOUT ME
+	</h1>
+	<div class="portrait">
+		<img class="portImg" src=""> 
+	</div>
+	
+	<div class="top aboutMerow">
+			<div class="box left" id="hover">
+				<h1 class="title">
+					Bio
+				</h1>
+				<p class="bodytext">
+					I was born and raised in Jersey, but currently live in New York. 
+						</p>	
+					<p id=sarcasticText> <span class="sarcastic" > Who Knows,</span> I might never leave the East Coast </p> 
+					<p>
+						Interests include: Documentaries, Board Games and <a id="feelgood" target="_blank" href="http://www.feelgood.org"> Saving the World (one Grilled Cheese at a time). </a>
+					</p>
+
+			</div>
+		<div class="box right">
+				<h1 class="title">
+				Fun Fact
+				</h1>
+				<p class="bodytext js-text">
+					
+				</p>
+		</div>
+	</div>
+
+	<div class="bottom aboutMerow">
+			<div class = "box left">
+				<h1 class="title">
+				Front End
+				</h1>
+				<table>
+					<tr>
+					</tr>
+					<tr>
+						<td>HTML/CSS</td>
+					</tr>
+					<tr>
+						<td>Javascript </td>
+					</tr>
+					<tr>
+						<td>Jquery</td>
+					</tr>
+					<tr>
+						<td>React</td>
+					</tr>
+				</table>
+			</div>
+	
+			<div class = "box right">
+				<h1 class="title">
+				Back End
+				</h1>
+						<table>
+					<tr>
+					</tr>
+					<tr>
+						<td>NodeJs </td>
+					</tr>
+					<tr>
+						<td>Express</td>
+					</tr>
+					<tr>
+						<td>MongoDB</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<div class="bottomest aboutMerow">
+			<div class = "box left">
+				<h1 class="title">
+				Workflow
+				</h1>
+				<table>
+					<tr>
+					</tr>
+					<tr>
+						<td>Git / GitHub </td>
+					</tr>
+					<tr>
+						<td>Trello</td>
+					</tr>
+					<tr>
+						<td>Travis CI</td>
+					</tr>
+					<tr>
+						<td>Jira</td>
+					</tr>
+				</table>
+			</div>
+		<div class = "box right" id="hover">
+				<h1 class="title">
+				Education
+				</h1>
+				<ul class = "eduList">
+					<li>
+						Columbia University
+					</li>
+					<br>
+					<li>Additional information about my education and background can be found on my <a id="feelgood" target="_blank" href="Resume-BenjaminSchechner-2017.pdf"> resume </a> </li>
+				</ul>
+		</div>
+	</div>
+	</div>
+
+<div id="contactMe">
+	<h2 class="header">
+	CONTACT ME
+	</h2>
+	<h3 class="text">
+	From schemes to dreams and everything in between, I would love to hear from you
+	</h3>
+
+	<div class="thumbnails">
+		<a target="_blank" href="https://github.com/sbschechner?tab=repositories" > <img class="ContThumb" id="github" src="./images/github.png"> </a>
+		<a  target="_blank" href="mailto:benjamin.schechner@gmail.com"><img class="ContThumb" id="email" src="./images/email.svg"> </a>
+		<a  target="_blank" href="https://www.linkedin.com/in/benjamin-schechner-b1768a48"><img class="ContThumb" id="linkedIn" src="./images/linked.png"> </a>
+		<a  target="_blank" href="https://angel.co/benjamin-schechner?public_profile=1"><img class="ContThumb" id="angel" src="./images/angelList.png"> </a>
+
+	</div>
+	
+</div>
+
 
 <div class="footer">
 <h3> &copy; 2017 Benjamin Schechner </h3>
 </div>
+
+<script type="text/javascript" src="./app.js"> </script>
 
 <script type="text/javascript">
 	$(function(){
