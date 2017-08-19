@@ -26,7 +26,7 @@
 			<ul>
 				<ol id="name"> <a href="#aboutMe"> Benjamin Schechner</a></ol>
 				<ol> <a href = "#splash"> Top </a></ol>	
-				<ol> <a href = "#portfolioBody"> Portfolio</a></ol>
+				<ol> <a href = "#sales"> Portfolio</a></ol>
 				<ol> <a href="#aboutMe"> About Me </a></ol>
 				<ol> <a href="#contactMe"> Contact </a></ol>
 			</ul>
@@ -46,16 +46,49 @@
 		<br>
 		<br>
 		<br>
-Feel free to <a href =" #portfolioBody"> explore my projects </a> and <a href="#contactMe"> reach out!</a>
+Feel free to <a href =" #sales"> explore my page </a> and <a href="#contactMe"> reach out!</a>
 	</h2>
+	<div class=" splashRow">
+		<div class="col-3 fade-in splashLeft ">
+			<h2> Sales </h2>
+		</div>
+		<div class="col-3 fade-in splashMid">
+			<h2> Product </h2>
+		</div>
+		<div class="col-3 fade-in splashRight">
+			<h2> Development </h2>
+		</div>
+	</div>
+
+	<div class="fade-in scrollMore">
+		<h2> Scroll Down For More </h2>
+	</div>
+
 </div>
 
 <div class="header-spacer">
 </div>
 
+<div id="sales">
+	<h1> Sales Director </h1>
+	<h3> Thinkful </h3>
+	<div>
+		AWESOME TEXT related to Thinkful 
+	</div>
+</div>
+
+<div id="product">
+	<h1> Product Manager </h1>
+	<h3> MasterCard </h3>
+	<div>
+		awesome text related to MasterCard
+	</div>
+</div>
+
 <div id="portfolioBody">	
-		<H1> MY PORTFOLIO
-		</H1>
+		<h1> Full Stack Developer
+		</h1>
+		<h3> Freelance </h3>
 		<div class="row">
 			<div class="col-3 left ">
 				<h2 class="header">
@@ -84,6 +117,36 @@ Feel free to <a href =" #portfolioBody"> explore my projects </a> and <a href="#
 					</div>
 					<div class = "langImgCont">	
 						<img class="image" src="./thumbnails/jQuery-logo1.png">
+					</div>
+				</div>
+			</div>
+		<div class="col-3 mid">
+				<h2 class="header" id="longHeader">
+					Around The Neighborhood
+				</h2>
+				<div class="imgCont">
+					 <a target ="_blank" href="https://google.com"> <img class="image" src="./thumbnails/cats.png"> </a>
+					 
+				</div>
+				<p class="projDescrip">
+				An app to see whats in the neighboorhood
+				</p>
+				<div class="buttons">
+					<a target="_blank" href="https://github.com/sbschechner/capstone-backend"> <button> Github  </button> </a>
+					
+					<a target ="_blank" href="https://shrouded-bayou-70080.herokuapp.com/"> <button>
+							Live Demo
+					</button> </a>
+				</div>	
+				<div class="langDescrip">
+					<div class = "langImgCont">	
+						<img class="image" src="./thumbnails/nodejs-icon1.png">
+					</div>
+					<div class = "langImgCont">	
+						<img class="image" id= "maps" src="./thumbnails/googleMaps.png">
+					</div>
+					<div class = "langImgCont">	
+						<img class="image" src="./thumbnails/React-icon1.svg.png">
 					</div>
 				</div>
 			</div>
@@ -259,8 +322,8 @@ Feel free to <a href =" #portfolioBody"> explore my projects </a> and <a href="#
 <script type="text/javascript">
 	$(function(){
         $(".typed").typed({
-            strings: ["developer ^500", "global citizen ^500", "grilled cheese enthusiast ^500", "programmer"],
-            typeSpeed: 1,
+            strings: ["Sales Director ^500", "Product Manager ^500", "Full Stack Developer ^500", "Global Citizen"],
+            typeSpeed: 1.4,
         });
     });
 </script>

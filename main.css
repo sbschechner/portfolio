@@ -15,8 +15,7 @@
 	position: fixed;
 	border-bottom: black solid;
 	width: 100%;
-
-
+	z-index: 500;
 
 }
 
@@ -39,10 +38,6 @@
 .navImg{
 	position: absolute;
 
-}
-
-#splash{
-margin-bottom: 15%;
 }
 
 .images{
@@ -75,7 +70,7 @@ h2 > a {
 
 .header{
 	text-align: center;
-	padding-top: 15%;
+	padding-top: 10%;
 	width: 56%;
 	margin: auto;
 	font-family: 'Raleway', sans-serif;
@@ -103,6 +98,103 @@ h2 > a {
     transition: opacity .25s;
 }
 
+.splashRow{
+	display: inline-flex;
+	color: #7d4627;
+	padding-top: 7%;
+	padding-left: 28%;
+}
+
+.col-3 > a{
+	text-decoration: none;
+}
+
+.splashRow > .splashMid{
+	padding-left: 65%;
+}
+
+.splashRow > .splashRight{
+	padding-left: 65%;
+}
+
+.scrollMore{
+	padding-top: 3%;
+	text-align: center;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.splashLeft {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.fade-in.splashMid {
+  -webkit-animation-delay: 2.8s;
+  -moz-animation-delay:2.8s;
+  animation-delay: 2.8s;
+}
+
+.fade-in.splashRight {
+  -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.fade-in.scrollMore {
+  -webkit-animation-delay: 7s;
+  -moz-animation-delay: 7s;
+  animation-delay: 7s;
+}
+
+#sales{
+	background: #e4eff7;
+}
+
+#sales > h1{
+	text-align: center;
+	padding-top: 5%;
+}
+
+#sales > h3 {
+	text-align: center;
+	font-style: italic;
+}
+
+
+
+#product{
+	background: blue;
+}
+
+#product> h1{
+	text-align: center;
+	padding-top: 5%;
+}
+
+#product > h3 {
+	text-align: center;
+	font-style: italic;
+}
+
 #portfolioBody{
 	background: #e4eff7;
 }
@@ -110,6 +202,11 @@ h2 > a {
 #portfolioBody > h1{
 	text-align: center;
 	padding-top: 5%;
+}
+
+#portfolioBody >h3{
+	text-align: center;
+	font-style: italic;
 }
 
 .images{
@@ -177,6 +274,7 @@ div > h1 {
 
 .header{
 text-align: center;
+padding-bottom: 10px;
 }
 
 .imgCont{
@@ -197,6 +295,20 @@ text-align: center;
 	font-style: italic;
 }
 
+#mongo{
+	height: 58%;
+	padding-top: 25%;
+}
+
+#longHeader{
+	min-width: 100%;
+}
+
+#maps{
+	height: 48%;
+	width: 64%;	
+	padding-top: 25%;
+}
 .langImgCont{
 	width: 35%;
 	height: 25%;
@@ -237,9 +349,6 @@ button{
 	margin-top:0;
 }
 
-.hidden{
-display: none;
-}
 
 .header-spacer{
 	padding-bottom:50px;
