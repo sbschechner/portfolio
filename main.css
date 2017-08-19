@@ -258,13 +258,17 @@ width: 500px;
 
 
 .productCont{
-	margin-left:11%; 
-height: 35%;
-min-width: 150%;
+	margin-left:15%; 
+	height: 40%;
+	min-width: 150%;
 }
 
 .productList{
-margin-left: 15%;
+margin-left: 17%;
+}
+
+.productList > .resumeList{
+margin-top: 10%;
 }
 
 #portfolioBody{
@@ -372,6 +376,10 @@ padding-bottom: 10px;
 	padding-top: 25%;
 }
 
+#react{
+height: 90%
+}
+
 #longHeader{
 	min-width: 100%;
 }
@@ -441,217 +449,6 @@ button{
 	padding-bottom:50px;
 }
 
-@media only screen and (max-device-width: 740px) and (orientation: portrait) {
-    .header {
-        font-size:53px;
-        padding-top: 0%;
-    }
-
-    .navContainer{
-    	font-size: -webkit-xxx-large;
-    }
-
-.portfolioBody{
-	padding-top: 19%;
-	font-size: xx-large;
-}
-
-.row{
-	display: block;
-	padding-top: 5%;
-
-}
-
-.projDescrip{
-	font-size: 40px;
-}
-
-button{
-	font-size:larger;
-}
-
-.langImgCont{
-	padding-bottom: 0%;
-}
-
-    .navImg{
-    	display: none;
-    }
-
-    .footer{
-    	height: 6%;
-    	font-size: x-large;
-    }
-}
-
-@media only screen and (max-device-width: 740px) and (orientation: landscape) {
-    .header {
-        font-size:26px;
-        padding-top: 10%;
-    }
-
-.portfolioBody{
-	padding-top: 19%;
-	font-size: x-large;
-}
-
-button{
-	font-size:larger;
-}
-
-.langImgCont{
-	padding-bottom: 19%;
-}
-    .navContainer{
-    	font-size: -webkit-xxx-large;
-    }
-
-    .navImg{
-    	display: none;
-    }
-
-    .footer{
-    	height: 6%;
-    	font-size: x-large;
-    }
-}
-
-@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: portrait) {
-    .header {
-        font-size:53px;
-        padding-top: 0%;
-    }
-
-    .navContainer{
-    	font-size: -webkit-xxx-large;
-    }
-
-.portfolioBody{
-	padding-top: 19%;
-	font-size: xx-large;
-}
-
-.row{
-	display: block;
-	padding-top: 5%;
-
-}
-
-button{
-	font-size:larger;
-}
-
-.projDescrip{
-	font-size: xx-large;
-}
-
-.langImgCont{
-	padding-bottom: 0%;
-}
-    .navImg{
-    	display: none;
-    }
-
-    .footer{
-    	height: 6%;
-    	font-size: x-large;
-    }
-}
-
-@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .header {
-        font-size:37px;
-        padding-top: 13%;
-    }
-
-    .navContainer{
-    	font-size: large;
-    }
-
-button{
-	font-size:larger;
-}
-
-     .footer{
-    	font-size: x-large;
-    }
-}
-@media only screen and (max-device-width: 740px) and (orientation: portrait) {
-    .header {
-        font-size:53px;
-        padding-top: 38%;
-    }
-
-    .navContainer{
-    	font-size: -webkit-xxx-large;
-    }
-
-    .navImg{
-    	display: none;
-    }
-
-    .footer{
-    	height: 6%;
-    	font-size: x-large;
-    }
-}
-
-@media only screen and (max-device-width: 740px) and (orientation: landscape) {
-    .header {
-        font-size:26px;
-        padding-top: 19%;
-    }
-
-    .navContainer{
-    	font-size: -webkit-xxx-large;
-    }
-
-    .navImg{
-    	display: none;
-    }
-
-    .footer{
-    	height: 6%;
-    	font-size: x-large;
-    }
-}
-
-@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: portrait) {
-    .header {
-        font-size:53px;
-        padding-top: 27%;
-    }
-
-    .navContainer{
-    	font-size: -webkit-xxx-large;
-    }
-
-    .navImg{
-    	display: none;
-    }
-
-    .footer{
-    	height: 6%;
-    	font-size: x-large;
-    }
-}
-
-
-@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .header {
-        font-size:37px;
-        padding-top: 13%;
-    }
-
-    .navContainer{
-    	font-size: large;
-    }
-
-
-     .footer{
-    	font-size: x-large;
-    }
-}
 
 #aboutMe{
 	background: #e4e3e1;
@@ -698,8 +495,6 @@ button{
 	max-width: 325px;
 	border:#b2d8f1 solid;
 }
-
-
 
 
 .aboutMeText{
@@ -859,14 +654,197 @@ img:hover{
 	text-decoration: none;
 }
 
-
 @media only screen and (max-device-width: 740px) and (orientation: portrait) {
     .header {
+        font-size:53px;
+        padding-top: 0%;
+    }
+
+    .navContainer{
+    	font-size: -webkit-xxx-large;
+    }
+
+.portfolioBody{
+	padding-top: 19%;
+	font-size: xx-large;
+}
+
+.row{
+	display: block;
+	padding-top: 5%;
+
+}
+
+.projDescrip{
+	font-size: 40px;
+}
+
+button{
+	font-size:larger;
+}
+
+.langImgCont{
+	padding-bottom: 0%;
+}
+
+    .navImg{
+    	display: none;
+    }
+
+    .footer{
+    	height: 6%;
+    	font-size: x-large;
+    }
+
+    #aboutMe > .header {
         font-size:53px;
         padding-top: 27%;
     }
 
-    .text{
+    #aboutMe > .text{
+    	display: none;
+    }
+
+    #aboutMe > .ContThumb{
+    padding-top: 20px;
+    margin: auto;
+    display: block;
+
+    }
+
+ 	#github{
+ 		width: 142px;
+ 	}
+
+ 	#email{
+ 		width: 160px;
+ 	}
+
+ 	#linkedIn{
+ 		width: 150px;
+ 	}
+
+ 	#angel{
+ 		width: 150px;
+ 	}
+
+
+}
+
+@media only screen and (max-device-width: 740px) and (orientation: landscape) {
+    .header {
+        font-size:26px;
+        padding-top: 10%;
+    }
+
+.portfolioBody{
+	padding-top: 19%;
+	font-size: x-large;
+}
+
+button{
+	font-size:larger;
+}
+
+.langImgCont{
+	padding-bottom: 19%;
+}
+    .navContainer{
+    	font-size: -webkit-xxx-large;
+    }
+
+    .navImg{
+    	display: none;
+    }
+
+    .footer{
+    	height: 6%;
+    	font-size: x-large;
+    }
+
+    #contactMe > .header {
+        font-size:34px;
+        padding-top: 10%;
+    }
+
+    #contactMe > .text{
+    	display: none;
+    }
+
+    #contactMe > .thumbnails{
+    	display: flex;
+    	padding-top: 0%;
+    }
+
+	#contactMe > .ContThumb{
+		padding-left: 35%;
+	}
+
+ 	#github{
+ 		width: 142px;
+ 	}
+
+ 	#email{
+ 		width: 160px;
+ 	}
+
+ 	#linkedIn{
+ 		width: 150px;
+ 	}
+
+ 	#angel{
+ 		width: 150px;
+ 	}
+
+}
+
+@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .header {
+        font-size:53px;
+        padding-top: 0%;
+    }
+
+    .navContainer{
+    	font-size: -webkit-xxx-large;
+    }
+
+.portfolioBody{
+	padding-top: 19%;
+	font-size: xx-large;
+}
+
+.row{
+	display: block;
+	padding-top: 5%;
+
+}
+
+button{
+	font-size:larger;
+}
+
+.projDescrip{
+	font-size: xx-large;
+}
+
+.langImgCont{
+	padding-bottom: 0%;
+}
+    .navImg{
+    	display: none;
+    }
+
+    .footer{
+    	height: 6%;
+    	font-size: x-large;
+    }
+
+        .header {
+        font-size:53px;
+        padding-top: 19%;
+    }
+
+        .text{
     	display: none;
     }
 
@@ -892,6 +870,33 @@ img:hover{
  	#angel{
  		width: 150px;
  	}
+}
+
+@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .header {
+        font-size:37px;
+        padding-top: 13%;
+    }
+
+    .navContainer{
+    	font-size: large;
+    }
+
+button{
+	font-size:larger;
+}
+
+     .footer{
+    	font-size: x-large;
+    }
+
+
+}
+@media only screen and (max-device-width: 740px) and (orientation: portrait) {
+    .header {
+        font-size:53px;
+        padding-top: 38%;
+    }
 
     .navContainer{
     	font-size: -webkit-xxx-large;
@@ -909,38 +914,9 @@ img:hover{
 
 @media only screen and (max-device-width: 740px) and (orientation: landscape) {
     .header {
-        font-size:34px;
-        padding-top: 10%;
+        font-size:26px;
+        padding-top: 19%;
     }
-
-    .text{
-    	display: none;
-    }
-
-    .thumbnails{
-    	display: flex;
-    	padding-top: 0%;
-    }
-
-	.ContThumb{
-		padding-left: 35%;
-	}
-
- 	#github{
- 		width: 142px;
- 	}
-
- 	#email{
- 		width: 160px;
- 	}
-
- 	#linkedIn{
- 		width: 150px;
- 	}
-
- 	#angel{
- 		width: 150px;
- 	}
 
     .navContainer{
     	font-size: -webkit-xxx-large;
@@ -957,6 +933,24 @@ img:hover{
 }
 
 @media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .header {
+        font-size:53px;
+        padding-top: 27%;
+    }
+
+    .navContainer{
+    	font-size: -webkit-xxx-large;
+    }
+
+    .navImg{
+    	display: none;
+    }
+
+    .footer{
+    	height: 6%;
+    	font-size: x-large;
+    }
+
     .header {
         font-size:53px;
         padding-top: 19%;
@@ -988,24 +982,24 @@ img:hover{
  	#angel{
  		width: 150px;
  	}
-
-    .navContainer{
-    	font-size: -webkit-xxx-large;
-    }
-
-    .navImg{
-    	display: none;
-    }
-
-    .footer{
-    	height: 6%;
-    	font-size: x-large;
-    }
 }
 
 
 @media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: landscape) {
     .header {
+        font-size:37px;
+        padding-top: 13%;
+    }
+
+    .navContainer{
+    	font-size: large;
+    }
+
+     .footer{
+    	font-size: x-large;
+    }
+
+        .header {
         font-size:37px;
         padding-top: 0%;
     }
@@ -1042,11 +1036,5 @@ img:hover{
  		width: 100px;
  	}
 
-    .navContainer{
-    	font-size: large;
-    }
-
-     .footer{
-    	font-size: x-large;
-    }
 }
+
