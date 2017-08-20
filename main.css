@@ -660,15 +660,23 @@ img:hover{
 	text-decoration: none;
 }
 
-@media only screen and (max-device-width: 740px) and (orientation: portrait) {
+@media only screen and (max-device-width: 760px) and (orientation: portrait) {
     .header {
         font-size:53px;
         padding-top: 0%;
     }
 
     .navContainer{
-    	font-size: -webkit-xxx-large;
+    	font-size: large;
     }
+
+  .navImg{
+    	display: none;
+    }
+
+#name{
+	display: none;
+}
 
 .portfolioBody{
 	padding-top: 19%;
@@ -692,10 +700,6 @@ button{
 .langImgCont{
 	padding-bottom: 0%;
 }
-
-    .navImg{
-    	display: none;
-    }
 
     .footer{
     	height: 6%;
@@ -734,10 +738,9 @@ button{
  		width: 150px;
  	}
 
-
 }
 
-@media only screen and (max-device-width: 740px) and (orientation: landscape) {
+@media only screen and (max-device-width: 1400px) and (orientation: landscape) {
     .header {
         font-size:26px;
         padding-top: 10%;
@@ -752,16 +755,26 @@ button{
 	font-size:larger;
 }
 
+ .resumeList  > li {
+ 	min-width: 800px;
+ 	}
+
+.row{
+	display: block;
+}
+
+.imgCont{
+	max-height: 65%;
+	max-width: 38%;
+}
+
 .langImgCont{
-	padding-bottom: 19%;
+	padding-bottom: 5%;
 }
     .navContainer{
-    	font-size: -webkit-xxx-large;
+    	font-size: x-large;
     }
 
-    .navImg{
-    	display: none;
-    }
 
     .footer{
     	height: 6%;
@@ -778,7 +791,6 @@ button{
     }
 
     #contactMe > .thumbnails{
-    	display: flex;
     	padding-top: 0%;
     }
 
@@ -802,7 +814,26 @@ button{
  		width: 150px;
  	}
 
+ 	#maps{
+ 		height: auto;
+ 		padding-top: 0;
+ 	}
+
+ 	#mongo{
+ 		height: auto;
+ 		padding-top: 9%;
+ 	}
+
+ 	#node{
+ 		height: 121%;
+ 		padding-top: 0;
+ 	}
+
+ 	#react{
+ 		height: auto;
+ 	}
 }
+
 
 @media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: portrait) {
     .header {
@@ -810,9 +841,15 @@ button{
         padding-top: 0%;
     }
 
-    .navContainer{
-    	font-size: -webkit-xxx-large;
+    .navLinks{
+    	float: none;
+    	padding-left: 3%;
     }
+
+
+	#name{
+	display: none;
+	}	
 
 .portfolioBody{
 	padding-top: 19%;
@@ -876,6 +913,54 @@ button{
  	#angel{
  		width: 150px;
  	}
+
+ 	.splashRow{
+ 		padding-left: 2%;
+ 	}
+
+ 	.splashRow > .splashMid {
+    padding-left: 36%;
+	}
+
+	.splashRow > .splashRight {
+    	padding-left: 36%;
+	}
+
+	h2{
+		font-size:48px;
+	}
+ 	.salesRow{
+ 		display: grid;
+ 	}
+
+ 	.video{
+ 		margin-left: 23%;
+ 		padding-top: 10%;
+ 	}
+
+ 	.productRow{
+ 		max-width: 100%;
+ 	}
+
+ 	.productList{
+ 		margin-left:-6%;
+ 	}
+
+ 	.productCont{
+ 		display: none;
+ 	}
+	
+	.resumeList > li{
+	min-width: 820px;
+	}
+
+	#salesList{
+		margin-left: 10%;
+	}
+
+	#portfolioHeader{
+		padding-top: 0%;
+	}
 }
 
 @media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -901,26 +986,6 @@ button{
 @media only screen and (max-device-width: 740px) and (orientation: portrait) {
     .header {
         font-size:53px;
-        padding-top: 38%;
-    }
-
-    .navContainer{
-    	font-size: -webkit-xxx-large;
-    }
-
-    .navImg{
-    	display: none;
-    }
-
-    .footer{
-    	height: 6%;
-    	font-size: x-large;
-    }
-}
-
-@media only screen and (max-device-width: 740px) and (orientation: landscape) {
-    .header {
-        font-size:26px;
         padding-top: 19%;
     }
 
@@ -936,6 +1001,173 @@ button{
     	height: 6%;
     	font-size: x-large;
     }
+
+      	.salesRow{
+ 		display: grid;
+ 	}
+
+ 	.video{
+ 		margin-left: 23%;
+ 		padding-top: 10%;
+ 	}
+
+ 	.productRow{
+ 		max-width: 100%;
+ 	}
+
+ 	.productList{
+ 		margin-left:-6%;
+ 	}
+
+ 	.productCont{
+ 		display: none;
+ 	}
+	
+	.resumeList > li{
+	min-width: 820px;
+	}
+
+	#salesList{
+		margin-left: 10%;
+	}
+
+	#portfolioHeader{
+		padding-top: 0%;
+	}
+
+	.splashRow{
+		padding-left: 8%;
+		padding-top: 2%;
+	}
+
+	 	#maps{
+ 		height: auto;
+ 		padding-top: 19%;
+ 	}
+
+ 	#mongo{
+ 		height: auto;
+ 		padding-top: 39%;
+ 	}
+
+ 	#node{
+ 		height: 89%;
+ 		padding-top: 0;
+ 	}
+
+ 	#react{
+ 		height: 89%;
+ 	}
+
+ 	.langImage{
+ 		height: 100%;
+ 	}
+
+ 	.connectToContact{
+ 		padding-top: 5%;
+ 	}
+
+ 	.aboutMerow{
+ 		margin-left: 20%;
+ 	}
+
+ 	h2{
+ 		font-size: 36px;
+ 	}
+
+ 	.splashRow > .splashMid {
+    padding-left: 35%;
+	}
+
+	.splashRow > .splashRight {
+    padding-left: 35%;
+	}
+
+}
+
+@media only screen and (max-device-width: 740px) and (orientation: landscape) {
+    .header {
+        font-size:26px;
+        padding-top: 10%;
+    }
+
+    .navContainer{
+    	font-size: large;
+    }
+
+    .footer{
+    	height: 12%;
+    	font-size: x-large;
+    }
+
+     	.salesRow{
+ 		display: grid;
+ 	}
+
+ 	.video{
+ 		margin-left: 23%;
+ 		padding-top: 10%;
+ 	}
+
+ 	.productRow{
+ 		max-width: 100%;
+ 	}
+
+ 	.productList{
+ 		margin-left:-6%;
+ 	}
+
+ 	.productCont{
+ 		display: none;
+ 	}
+	
+	.resumeList > li{
+	min-width: 820px;
+	}
+
+	#salesList{
+		margin-left: 10%;
+	}
+
+	#portfolioHeader{
+		padding-top: 0%;
+	}
+
+	.splashRow{
+		padding-left: 15%;
+		padding-top: 2%;
+	}
+
+	 	#maps{
+ 		height: auto;
+ 		padding-top: 0;
+ 	}
+
+ 	#mongo{
+ 		height: auto;
+ 		padding-top: 9%;
+ 	}
+
+ 	#node{
+ 		height: 171%;
+ 		padding-top: 0;
+ 	}
+
+ 	#react{
+ 		height: 150%;
+ 	}
+
+ 	.langImage{
+ 		height: 150%;
+ 	}
+
+ 	.connectToContact{
+ 		padding-top: 5%;
+ 	}
+
+ 	.aboutMerow{
+ 		margin-left: 20%;
+ 	}
 }
 
 @media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: portrait) {
