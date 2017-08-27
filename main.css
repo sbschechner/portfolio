@@ -553,6 +553,11 @@ color:white;
 	display: flex;
 }
 
+#aboutMe > .bottomer{
+	display: flex;
+	padding-top: 4%;
+}
+
 #aboutMe > .bottomest {
 	padding-top: 4%;
 	display: flex;
