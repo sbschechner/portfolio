@@ -200,17 +200,20 @@ h2 > a {
 
 #sales{
 	background: #e4eff7;
-	padding-bottom: 8%;
+	padding-bottom: 3%;
+	padding-top: 2%;
 }
 
 #sales > h1{
 	text-align: center;
 	padding-top: 5%;
+	margin-top: 0;
 }
 
 #sales > h3 {
 	text-align: center;
 	font-style: italic;
+	padding-bottom: 5%;
 }
 
 .salesRow{
@@ -253,10 +256,19 @@ margin-top: -2%;
 width: 500px;
 }
 
+.downArrow{
+margin-top: 4%;
+text-align: center;
+}
 
+.downArrow > img{
+	max-width: 5%;
+	max-height:5%;
+}
 #product{
 	background: #e4e3e1;
-	padding-bottom: 8%;
+	padding-bottom: 3%;
+	padding-top: 2%;
 }
 
 #product> h1{
@@ -268,6 +280,7 @@ width: 500px;
 #product > h3 {
 	text-align: center;
 	font-style: italic;
+	padding-bottom: 3%;
 }
 
 .productRow{
