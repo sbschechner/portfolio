@@ -19,25 +19,42 @@
 
 }
 
+
 .navLinks{
 	float: right;
 	padding-right:50px;
 	padding-top: 10px;
-
+	text-decoration: none;
 }
+
 
 #name{
-	padding-right: 190px;
-	color: #7d4627;
+		padding-top: 6px;
+		padding-left: 0;
 }
 
-#name > a{
-	text-decoration: none;
+#name:hover{
+	color:black;
+
 }
 
 .navImg{
 	position: absolute;
+	margin-left: 2%;
+	margin-top: 0.2%;
+}
 
+.navImg > a{
+	text-decoration: none;
+}
+
+.headerImg{
+	text-align: center;
+}
+
+.headerImg >img{
+	height: 30%;
+	width: 15%;
 }
 
 .images{
@@ -47,12 +64,22 @@
 	padding-top: 18px;
 }
 
+.fadeImg{
+	text-align: center
+}
+
+.fadeImg>img{
+	height: 10%;
+	max-width: 30%;
+}
+
 ul > ol {
 	display: inline;
 }
 
 ol > a {
 	color: #7d4627;
+	text-decoration: none;
 }
 
 ol > a:hover{
@@ -62,15 +89,14 @@ ol > a:hover{
 
 h2 > a {
 	text-decoration: none;
-	font-style: italic;
 	cursor: pointer;
-	color: #7d4627;
+	color: black;
 
 }
 
 .header{
 	text-align: center;
-	padding-top: 10%;
+	padding-top: 7%;
 	width: 56%;
 	margin: auto;
 	font-family: 'Raleway', sans-serif;
@@ -101,9 +127,13 @@ h2 > a {
 .splashRow{
 	display: inline-flex;
 	color: #7d4627;
-	padding-top: 7%;
-	padding-left: 28%;
+	padding-top: 2%;
+	padding-left: 29%;
 	max-width: 21%;
+}
+
+.headerSkills{
+	text-align: center
 }
 
 .col-3 > a{
@@ -119,7 +149,7 @@ h2 > a {
 }
 
 .scrollMore{
-	padding-top: 3%;
+	padding-top: 1%;
 	text-align: center;
 }
 
@@ -166,8 +196,11 @@ h2 > a {
   animation-delay: 7s;
 }
 
+
+
 #sales{
 	background: #e4eff7;
+	padding-bottom: 8%;
 }
 
 #sales > h1{
@@ -202,6 +235,7 @@ h2 > a {
 
 .resumeList{
 	margin-top: 0;
+	list-style-type: circle;
 }
 
 .resumeList > li{
@@ -212,24 +246,17 @@ h2 > a {
 
 .video{
 margin-left: 44%;
+margin-top: -2%;
 }
 
 .vidContainer{
 width: 500px;
 }
 
-.connectToContact{
-	text-align: center;
-	padding-bottom: 3%;
-}
-
-#contactMeButton{
-	padding-top: 3%;
-	margin-bottom: 0%; 
-}
 
 #product{
 	background: #e4e3e1;
+	padding-bottom: 8%;
 }
 
 #product> h1{
@@ -274,6 +301,7 @@ margin-top: 10%;
 
 #portfolioBody{
 	background: #e4eff7;
+	padding-bottom: 5%;
 }
 
 #portfolioBody > h1{
@@ -344,15 +372,19 @@ div > h1 {
 	width:100%;
 }
 
+.mid{
+border-left: thick double black;
+border-right: thick double black;
+}
 
-.portfolioBody{
+portfolioBody{
 	padding-top: 5%;
 	text-align: center;
 }
 
 .header{
 text-align: center;
-padding-bottom: 10px;
+padding-bottom: 20px;
 }
 
 .imgCont{
@@ -363,13 +395,17 @@ padding-bottom: 10px;
 }
 
 .image{
-	width: 100%;
-	height: 100%;
+	max-width: 100%;
+	height: auto;
 }
 
 
 .projDescrip{
 	font-style: italic;
+}
+
+.langImgCont > p{
+margin-top:10%;
 }
 
 #mongo{
@@ -390,6 +426,22 @@ height: 85%
 	min-width: 100%;
 }
 
+#mongoLabel{
+	margin-top: 37%;
+}
+
+#nodeLabel{
+	margin-top: 19%;
+}
+
+#reactLabel{
+	margin-top: 28%;
+}
+
+#googleLabel{
+	margin-top: 48%;
+}
+
 #maps{
 	height: 48%;
 	width: 64%;	
@@ -399,7 +451,6 @@ height: 85%
 	width: 35%;
 	height: 25%;
 	padding-bottom: 25%;
-	padding-top: 4%;
 	padding-right: 2%;
 }
 
@@ -481,9 +532,6 @@ button{
 	color: #7d4627;
 }
 
-#aboutMe > ol > a:hover{
-	color:black;
-}
 
 
 #aboutMe > .title{
@@ -599,9 +647,6 @@ padding-right: 1%;
 padding-top: 13%;
 }
 
-#feelgood:hover{
-	color: black;
-}
 
 #contactMe{
 	background: #e4eff7;

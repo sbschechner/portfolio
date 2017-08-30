@@ -19,12 +19,11 @@
 <body class="extra">
 	<header class="navContainer">
 		<div class="navImg">
-			<a href="#splash"> <img class="images" src="./home.png"> </a>
+			<a href="#splash"> <ol id=name> Benjamin Schechner </ol> </a>
 		</div>
 
 		<div class="navLinks">
 			<ul>
-				<ol id="name"> <a href="#aboutMe"> Benjamin Schechner</a></ol>
 				<ol> <a href = "#splash"> Top </a></ol>	
 				<ol> <a href = "#sales"> Portfolio</a></ol>
 				<ol> <a href="#aboutMe"> About Me </a></ol>
@@ -35,34 +34,36 @@
 <div id="splash">
 	<h2 class="header">
 
-		Hey there! My name is <a href="#aboutMe">Benjamin Schechner </a> and I am a 
+		Hey there! My name is Benjamin Schechner and I am a 
 		<br>
 		<br>
 		<span class="typed">  </span>
 		<br>
+		 </h2>
 		<br>
-		living in New York City.
+		<div class="headerImg">
+			<img src="./profile.jpg">
+		</div>
+		<br>
+		<div class="headerSkills fade-in splashLeft"> Background  </div> 
 
-		<br>
-		<br>
-		<br>
-Feel free to <a href =" #sales"> explore my page </a> and <a href="#contactMe"> reach out!</a>
-	</h2>
 	<div class=" splashRow">
 		<div class="col-3 fade-in splashLeft ">
-			<h2> Sales </h2>
+			<a href="#sales"> <h2> Sales </h2> </a> 
 		</div>
 		<div class="col-3 fade-in splashMid">
-			<h2> Product </h2>
+			<a href =" #product"> <h2> Product </h2> </a>
 		</div>
 		<div class="col-3 fade-in splashRight">
-			<h2> Development </h2>
+			 <a href="#portfolioBody"> <h2> Development </h2> </a>
 		</div>
 	</div>
 
 	<div class="fade-in scrollMore">
 		<h2> Scroll Down For More </h2>
 	</div>
+	<br>
+	<br>
 
 </div>
 
@@ -95,9 +96,7 @@ Feel free to <a href =" #sales"> explore my page </a> and <a href="#contactMe"> 
 
 	</div>
 
-	<div class="connectToContact">
-		<a href="#contactMe"> <h3 id="contactMeButton"> Contact Me </h3>  </a>
-	</div>
+
 </div>
 
 <div id="product">
@@ -126,9 +125,7 @@ Feel free to <a href =" #sales"> explore my page </a> and <a href="#contactMe"> 
 
 	</div>
 
-	<div class="connectToContact">
-		<a href="#contactMe"> <h3 id="contactMeButton"> Contact Me </h3>  </a>
-	</div>
+
 
 </div>
 
@@ -144,7 +141,7 @@ Feel free to <a href =" #sales"> explore my page </a> and <a href="#contactMe"> 
 					Who Paid?
 				</h2>
 				<div class="imgCont">
-					 <a target ="_blank" href="https://shrouded-bayou-70080.herokuapp.com/"> <img class="image" src="./thumbnails/whopaid.png"> </a>
+					 <a target ="_blank" href="https://shrouded-bayou-70080.herokuapp.com/"> <img class="image" src="./thumbnails/whopaid1.png"> </a>
 					 
 				</div>
 				<p class="projDescrip">
@@ -157,15 +154,19 @@ Feel free to <a href =" #sales"> explore my page </a> and <a href="#contactMe"> 
 							Live Demo
 					</button> </a>
 				</div>	
+				<h5> Technologies Used: </h5>
 				<div class="langDescrip">
 					<div class = "langImgCont">	
 						<img class="langImage" src="./thumbnails/jQuery-logo1.png">
+						<p > jQuery </p>
 					</div>
 					<div class = "langImgCont">	
 						<img class="langImage" id= "mongo" src="./thumbnails/mongodb-logo.png">
+						<p id="mongoLabel"> MongoDB </p>
 					</div>
 					<div class = "langImgCont">	
 						<img class="langImage" id = "node" src="./thumbnails/nodejs-icon1.png">
+						<p id="nodeLabel"> NodeJS </p>
 					</div>
 				</div>
 			</div>
@@ -187,15 +188,19 @@ Feel free to <a href =" #sales"> explore my page </a> and <a href="#contactMe"> 
 							Live Demo
 					</button> </a>
 				</div>	
+				<h5> Technologies Used: </h5>
 				<div class="langDescrip">
 					<div class = "langImgCont">	
 						<img class="langImage" id ="react" src="./thumbnails/React-icon1.svg.png">
+						<p id="reactLabel"> React </p>
 					</div>
 					<div class = "langImgCont">	
 						<img class="langImage" id= "maps" src="./thumbnails/googleMaps.png">
+						<p id="googleLabel"> Google Maps API </p>
 					</div>
 					<div class = "langImgCont">	
 						<img class="langImage" id ="node" src="./thumbnails/nodejs-icon1.png">
+						<p id="nodeLabel"> NodeJS </p>
 					</div>
 				</div>
 			</div>
@@ -204,7 +209,7 @@ Feel free to <a href =" #sales"> explore my page </a> and <a href="#contactMe"> 
 					GetReady
 				</h2>
 				<div class="imgCont">
-					<a target="_blank" href="https://courier-kangaroo-15044.netlify.com">  <img class="image" src="./thumbnails/coffee.png"> </a>
+					<a target="_blank" href="https://courier-kangaroo-15044.netlify.com">  <img class="image" src="./thumbnails/coffee1.png"> </a>
 				</div>	
 				<p class="projDescrip">
 				An app to get the time, weather and daily news
@@ -216,23 +221,24 @@ Feel free to <a href =" #sales"> explore my page </a> and <a href="#contactMe"> 
 							Live Demo
 					</button> </a>
 				</div>	
+				<h5> Technologies Used: </h5>
 		<div class="langDescrip">
 				<div class = "langImgCont">
 					<img class="langImage" id ="react" src="./thumbnails/React-icon1.svg.png">
+					<p id="reactLabel"> React </p>
 				</div>
 				<div class = "langImgCont">
 					<img class="langImage" src="./thumbnails/nytimes-logo.gif">
+					<p> NYTimes API </p>
 				</div>
 				<div class = "langImgCont">	
 					<img class="langImage" src="./thumbnails/openWeather.png">
+					<p> Open Weather API </p>
 				</div>	
 				</div>
 			</div>
 		</div>
 
-		<div class="connectToContact">
-			<a href="#contactMe"> <h3 id="devContactMeButton"> Contact Me </h3>  </a>
-		</div>
 	</div>
 
 <div id="aboutMe">
@@ -244,7 +250,7 @@ Feel free to <a href =" #sales"> explore my page </a> and <a href="#contactMe"> 
 	</div>
 	
 	<div class="top aboutMerow">
-			<div class="box left" id="hover">
+			<div class="box left">
 				<h1 class="title">
 					Bio
 				</h1>
@@ -253,7 +259,7 @@ Feel free to <a href =" #sales"> explore my page </a> and <a href="#contactMe"> 
 						</p>	
 					<p id=sarcasticText> <span class="sarcastic" > Who Knows,</span> I might never leave the East Coast </p> 
 					<p>
-						Interests include: Documentaries, Board Games and <a id="feelgood" target="_blank" href="http://www.feelgood.org"> Saving the World (one Grilled Cheese at a time). </a>
+						Interests include: Documentaries and Board Games
 					</p>
 
 			</div>
@@ -428,5 +434,4 @@ Feel free to <a href =" #sales"> explore my page </a> and <a href="#contactMe"> 
   ga('send', 'pageview');
 
 </script>
-</body>
 </html>
