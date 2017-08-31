@@ -390,10 +390,6 @@ border-left: thick double black;
 border-right: thick double black;
 }
 
-portfolioBody{
-	padding-top: 5%;
-	text-align: center;
-}
 
 .header{
 text-align: center;
@@ -422,8 +418,8 @@ margin-top:10%;
 }
 
 #mongo{
-	height: 58%;
-	padding-top: 25%;
+	height: auto;
+	padding-top: 38%;
 }
 
 #react{
@@ -440,7 +436,7 @@ height: 85%
 }
 
 #mongoLabel{
-	margin-top: 37%;
+	margin-top: 47%;
 }
 
 #nodeLabel{
@@ -452,11 +448,11 @@ height: 85%
 }
 
 #googleLabel{
-	margin-top: 48%;
+	margin-top: 43%;
 }
 
 #maps{
-	height: 48%;
+	height: auto;
 	width: 64%;	
 	padding-top: 25%;
 }
@@ -808,13 +804,35 @@ button{
 
 @media only screen and (max-device-width: 1400px) and (orientation: landscape) {
     .header {
-        font-size:26px;
-        padding-top: 10%;
+        font-size:30px;
+        padding-top: 14%;
     }
 
 .portfolioBody{
 	padding-top: 19%;
 	font-size: x-large;
+}
+
+.headerImg{
+	padding-top: 4%;
+}
+
+.headerImg >img {
+    height: 20%;
+    width: 15%;
+}
+
+.splashRow{
+padding-bottom: 3%;
+padding-top: 5%;
+}
+
+#splash{
+padding-bottom: 5%;	
+}
+
+#sales{
+padding-bottom: 12%;
 }
 
 button{
@@ -830,17 +848,42 @@ button{
 }
 
 .imgCont{
-	max-height: 65%;
-	max-width: 38%;
+	padding-top: 5%;
+	height: 25%;
+}
+
+.downArrow{
+	display: none;
+}
+
+#portfolioHeader{
+padding-top: 5%;	
 }
 
 .langImgCont{
 	padding-bottom: 5%;
+
+}
+
+.langImage{
+	max-width: 100%;
+	height:auto;
+}
+
+h5{
+	font-size: x-large;	
 }
     .navContainer{
     	font-size: x-large;
     }
 
+.projDescrip{
+	font-size: larger;
+}
+
+.langDescrip{
+	padding-bottom: 5%;
+}
 
     .footer{
     	height: 6%;
@@ -849,7 +892,8 @@ button{
 
     #contactMe > .header {
         font-size:34px;
-        padding-top: 10%;
+        padding-top: 8%;
+        padding-bottom: 5%;
     }
 
     #contactMe > .text{
@@ -882,21 +926,59 @@ button{
 
  	#maps{
  		height: auto;
- 		padding-top: 0;
+ 		padding-top: 14%;
+ 	}
+
+ 	#googleLabel{
+ 		margin-top: 24%;
  	}
 
  	#mongo{
  		height: auto;
- 		padding-top: 9%;
+ 		padding-top: 24%;
  	}
 
+ 	#mongoLabel{
+ 		font-size: larger;
+ 		margin-top: 27%;
+ 	}
+
+ 	.langImgCont > p {
+    margin-top: 2%;
+    font-size: larger;
+}
+
+
  	#node{
- 		height: 121%;
- 		padding-top: 0;
+ 		height: 146%;
+ 		padding-top: 3%;
+ 	}
+
+ 	#nodeLabel{
+ 		font-size: larger;
+ 		margin-top: 10%;
  	}
 
  	#react{
  		height: auto;
+ 	}
+
+ 	#reactLabel{
+	margin-top: 10%;
+	font-size: larger;
+ 	}
+
+ 	.mid{
+ 		border: none;
+ 	}
+
+ 	.headerSkills{
+ 		font-size: x-large;
+ 		padding-top: 4%;
+ 	}
+
+ 	#portfolioBody{
+ 		padding-bottom: 11%;
  	}
 }
 
@@ -906,6 +988,34 @@ button{
         font-size:53px;
         padding-top: 0%;
     }
+
+    .headerImg >img {
+    height: 12%;
+    width: 15%;
+}
+
+.headerImg{
+	padding-top: 5%;
+}
+
+.headerSkills{
+	font-size: x-large;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.splashRow{
+	padding-bottom: 5%;	
+	padding-left:17%;
+}
+
+ 	.splashRow > .splashMid {
+    padding-left: 36%;
+	}
+
+	.splashRow > .splashRight {
+    	padding-left: 36%;
+	}
 
     .navLinks{
     	float: none;
@@ -930,6 +1040,14 @@ button{
 
 button{
 	font-size:larger;
+}
+
+.downArrow{
+	display: none;
+}
+
+.salesRow{
+	display: grid;
 }
 
 .projDescrip{
@@ -980,28 +1098,15 @@ button{
  		width: 150px;
  	}
 
- 	.splashRow{
- 		padding-left: 2%;
- 	}
-
- 	.splashRow > .splashMid {
-    padding-left: 36%;
-	}
-
-	.splashRow > .splashRight {
-    	padding-left: 36%;
-	}
 
 	h2{
 		font-size:48px;
 	}
- 	.salesRow{
- 		display: grid;
- 	}
 
  	.video{
  		margin-left: 23%;
  		padding-top: 10%;
+ 		padding-bottom: 5%;
  	}
 
  	.productRow{
@@ -1018,42 +1123,99 @@ button{
 	
 	.resumeList > li{
 	min-width: 820px;
+	font-size: large;
+	}
+
+	#sales > h3 {
+    padding-bottom: 2%;
 	}
 
 	#salesList{
 		margin-left: 10%;
 	}
 
+	#product{
+		padding-bottom: 10%;
+	}
+
 	#portfolioHeader{
 		padding-top: 0%;
 	}
+
+	.imgCont{
+		height: 21%;
+	}
+
+	.mid{
+		border: none;
+	}
+
+	#portfolioHeader{
+		padding-top: 4%;
+	}
+
+	h5{
+		font-size: xx-large;
+	}
+
+	.langImgCont > p {
+		font-size: x-large;
+    margin-top: 10%;
+	}
+
+	#mongoLabel{
+		margin-top: 32%;
+	}
+
+	#maps{
+		padding-top: 17%;
+	}
+
+	#googleLabel{
+		margin-top: 40%;
+	}
+
+	#portfolioBody{
+		padding-bottom: 14%;
+	}
+
+	.aboutMeRow{
+		margin-left:19%;
+	}
+
+	#aboutMe{
+		padding-bottom: 10%;
+	}
 }
 
-@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .header {
-        font-size:37px;
-        padding-top: 13%;
-    }
 
-    .navContainer{
-    	font-size: large;
-    }
-
-button{
-	font-size:larger;
-}
-
-     .footer{
-    	font-size: x-large;
-    }
-
-
-}
 @media only screen and (max-device-width: 740px) and (orientation: portrait) {
     .header {
         font-size:53px;
-        padding-top: 19%;
+        padding-top: 30%;
+        padding-bottom: 5%;
     }
+
+    .headerImg >img {
+    height: 16%;
+    width: 30%;
+	}
+
+	.headerImg{
+		padding-bottom: 5%;
+		padding-top: 5%;
+	}
+
+	.headerSkills{
+		padding-bottom: 5%;
+	}
+
+	.splashRow{
+		padding-left: 18%;
+		padding-top: 5%;
+		padding-bottom: 7%;
+	}
+
 
     .navContainer{
     	font-size: -webkit-xxx-large;
@@ -1063,11 +1225,18 @@ button{
     	display: none;
     }
 
+    .downArrow{
+    	display: none;
+    }
+
     .footer{
     	height: 6%;
     	font-size: x-large;
     }
 
+    #sales{
+    	padding-bottom: 15%;
+    }
       	.salesRow{
  		display: grid;
  	}
@@ -1075,6 +1244,10 @@ button{
  	.video{
  		margin-left: 23%;
  		padding-top: 12%;
+ 	}
+
+ 	#product{
+ 		padding-bottom: 15%;
  	}
 
  	.productRow{
@@ -1101,14 +1274,24 @@ button{
 		padding-top: 0%;
 	}
 
-	.splashRow{
-		padding-left: 8%;
-		padding-top: 2%;
+	.imgCont{
+		height: 17%;
 	}
 
+	.langImgCont > p {
+    font-size: xx-large;
+	}
+
+	.mid{
+		border: none;
+	}
+
+	h5{
+		font-size: xx-large;
+	}
 	 	#maps{
  		height: auto;
- 		padding-top: 19%;
+ 		padding-top: 36%;
  	}
 
  	#mongo{
@@ -1116,21 +1299,33 @@ button{
  		padding-top: 39%;
  	}
 
+ 	#mongoLabel{
+ 		margin-top: 64%;
+ 	}
+
  	#node{
  		height: 89%;
  		padding-top: 0;
+ 	}
+
+ 	#nodeLabel{
+ 		margin-top: 25%;
  	}
 
  	#react{
  		height: 89%;
  	}
 
+ 	#googleLabel{
+ 		margin-top: 54%;
+ 	}
+
  	.langImage{
  		height: 100%;
  	}
 
- 	.connectToContact{
- 		padding-top: 5%;
+ 	#portfolioBody{
+ 		padding-bottom: 15%;
  	}
 
  	.aboutMerow{
@@ -1138,7 +1333,7 @@ button{
  	}
 
  	h2{
- 		font-size: 36px;
+ 		font-size: 44px;
  	}
 
  	.splashRow > .splashMid {
@@ -1157,8 +1352,33 @@ button{
         padding-top: 10%;
     }
 
+    .headerImg >img {
+    height: 24%;
+    width: 15%;
+	}
+
+	#splash{
+		padding-bottom: 0;
+	}
+
+	.headerImg{
+		padding-top: 0;
+	}
+
+	.headerSkills{
+		display: none;
+	}
+
+	.splashRow{
+		display: none;
+	}
+
     .navContainer{
     	font-size: large;
+    }
+
+    #product{
+    	padding-bottom: 8%;
     }
 
     .footer{
@@ -1199,14 +1419,22 @@ button{
 		padding-top: 0%;
 	}
 
-	.splashRow{
-		padding-left: 15%;
-		padding-top: 2%;
+	.projDescrip{
+		margin-top: 9%;
 	}
+
+	.langImgCont > p {
+    margin-top: 18%;
+    font-size: larger;
+}
 
 	 	#maps{
  		height: auto;
  		padding-top: 0;
+ 	}
+
+ 	#googleLabel{
+ 		margin-top: 22%;
  	}
 
  	#mongo{
@@ -1214,131 +1442,38 @@ button{
  		padding-top: 9%;
  	}
 
+ 	#mongoLabel{
+ 		margin-top: 26%;
+ 	}
+
  	#node{
  		height: 171%;
  		padding-top: 0;
+ 	}
+
+ 	#nodeLabel{
+ 		margin-top: 7%;
  	}
 
  	#react{
  		height: 150%;
  	}
 
+ 	#reactLabel{
+ 		margin-top: 16%;	
+ 	}
+
  	.langImage{
  		height: 150%;
  	}
 
- 	.connectToContact{
- 		padding-top: 5%;
- 	}
-
  	.aboutMerow{
- 		margin-left: 20%;
+ 		margin-left: 15%;
+ 	}
+
+ 	#portfolioBody{
+ 		padding-bottom: 15%;
  	}
 }
 
-@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: portrait) {
-    .header {
-        font-size:53px;
-        padding-top: 27%;
-    }
-
-    .navContainer{
-    	font-size: -webkit-xxx-large;
-    }
-
-    .navImg{
-    	display: none;
-    }
-
-    .footer{
-    	height: 6%;
-    	font-size: x-large;
-    }
-
-    .header {
-        font-size:53px;
-        padding-top: 19%;
-    }
-
-        .text{
-    	display: none;
-    }
-
-    .ContThumb{
-    padding-top: 20px;
-    margin: auto;
-    display: block;
-
-    }
-
- 	#github{
- 		width: 142px;
- 	}
-
- 	#email{
- 		width: 160px;
- 	}
-
- 	#linkedIn{
- 		width: 150px;
- 	}
-
- 	#angel{
- 		width: 150px;
- 	}
-}
-
-
-@media only screen and (min-device-width:760px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .header {
-        font-size:37px;
-        padding-top: 13%;
-    }
-
-    .navContainer{
-    	font-size: large;
-    }
-
-     .footer{
-    	font-size: x-large;
-    }
-
-        .header {
-        font-size:37px;
-        padding-top: 0%;
-    }
-
-     .text{
-    display: none;
-    }
-
-
-    .thumbnails{
-    	padding-top: 0px;
-    }
-
-    .ContThumb{
-    padding-top: 20px;
-    margin: auto;
-    display: block;
-
-    }
-
- 	#github{
- 		width: 105px;
- 	}
-
- 	#email{
- 		width: 100px;
- 	}
-
- 	#linkedIn{
- 		width: 100px;
- 	}
-
- 	#angel{
- 		width: 100px;
- 	}
-
-}
 
