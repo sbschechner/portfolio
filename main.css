@@ -309,7 +309,7 @@ margin-left: 17%;
 }
 
 .productList > .resumeList{
-margin-top: 10%;
+margin-top: 5%;
 }
 
 #portfolioBody{
@@ -588,7 +588,7 @@ button{
 	border: black solid;
 	text-align: center;
 	width: 300px;
-	background: #b2d8f1;
+	background: #e4eff7;
 	color:#7d4627;
 	transition-duration: 1s;
     transition-property: color;
