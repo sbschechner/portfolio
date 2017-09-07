@@ -651,7 +651,10 @@ font-family: Raleway;
 #feelgood{
 	color: #7d4627;
 	text-decoration: none;
+	cursor: auto;
 }
+
+
  
 #funFact{
 padding-left: 1%;
