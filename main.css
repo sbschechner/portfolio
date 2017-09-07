@@ -828,6 +828,7 @@ button{
 .splashRow{
 padding-bottom: 3%;
 padding-top: 5%;
+padding-left: 24%;
 }
 
 #splash{
@@ -838,13 +839,30 @@ padding-bottom: 5%;
 padding-bottom: 12%;
 }
 
+.aboutMerow {
+    display: inline;
+    margin-left: 17%;
+}
+
 button{
 	font-size:larger;
+}
+
+#salesList > .resumeList{
+	margin-left: 6%;
 }
 
  .resumeList  > li {
  	min-width: 800px;
  	}
+
+ .mastercard{
+ 	max-width: 80px;
+ }	
+
+ .mastercard > li{
+ 	padding: 35%;
+ }
 
 .row{
 	display: block;
@@ -853,6 +871,11 @@ button{
 .imgCont{
 	padding-top: 5%;
 	height: 25%;
+}
+
+.video {
+    margin-left: 7%;
+    margin-top: 23%;
 }
 
 .downArrow{
