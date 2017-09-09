@@ -821,7 +821,7 @@ button{
 }
 
 .headerImg >img {
-    height: 20%;
+    height: auto;
     width: 15%;
 }
 
@@ -905,6 +905,7 @@ h5{
 
 .projDescrip{
 	font-size: larger;
+	margin-top: 10%;
 }
 
 .langDescrip{
@@ -976,13 +977,13 @@ h5{
 
 
  	#node{
- 		height: 146%;
+ 		height: auto;
  		padding-top: 3%;
  	}
 
  	#nodeLabel{
  		font-size: larger;
- 		margin-top: 10%;
+ 		margin-top: -4%;
  	}
 
  	#react{
@@ -1004,7 +1005,7 @@ h5{
  	}
 
  	#portfolioBody{
- 		padding-bottom: 11%;
+ 		padding-bottom: 16%;
  	}
 }
 
