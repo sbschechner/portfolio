@@ -913,6 +913,10 @@ h5{
 	margin-top: 10%;
 }
 
+ .labelsPort > h4 {
+ 		font-size: x-large;
+}
+
 .langDescrip{
 	padding-bottom: 5%;
 }
@@ -1195,17 +1199,15 @@ button{
     margin-top: 10%;
 	}
 
-	#mongoLabel{
-		margin-top: 32%;
-	}
+ 	.labelsPort > h4 {
+ 		font-size: xx-large;
+}
 
 	#maps{
 		padding-top: 17%;
 	}
 
-	#googleLabel{
-		margin-top: 40%;
-	}
+
 
 	#portfolioBody{
 		padding-bottom: 14%;
@@ -1342,6 +1344,9 @@ button{
  		height: 89%;
  	}
 
+ 	.labelsPort > h4 {
+ 		font-size: xx-large;
+}
 
  	.langImage{
  		height: 100%;
