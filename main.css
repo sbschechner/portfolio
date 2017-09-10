@@ -1233,6 +1233,14 @@ button{
         padding-bottom: 5%;
     }
 
+    #longHeader {
+    padding-top: 11%;
+}
+
+	#getReadyHeader{
+		padding-top:15%;
+	}
+
     .headerImg >img {
     height: auto;
     width: 30%;
@@ -1301,6 +1309,7 @@ button{
 	
 	.resumeList > li{
 	min-width: 820px;
+	font-size: x-large;
 	}
 
 	#salesList{
