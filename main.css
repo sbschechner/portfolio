@@ -435,16 +435,17 @@ height: 85%
 	min-width: 100%;
 }
 
-.labels{
-	display: inline-flex;
+.labelsPort{
+	display: flex;
 }
 
-.labels > h4{
+.labelsPort > h4{
 	margin: auto;
-padding-left: 6%;
-padding-right: 9%;
-
+	display: block;
+	padding-bottom: 5%;
+	padding-top: 4%;
 }
+
 
 .longLabels{
 	padding-left: 5%;	
@@ -1341,11 +1342,6 @@ button{
  		height: 89%;
  	}
 
-
- 	.labels > h4{
-	font-size: xx-large;
-	padding: 10%;
-	}
 
  	.langImage{
  		height: 100%;
