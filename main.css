@@ -435,20 +435,19 @@ height: 85%
 	min-width: 100%;
 }
 
-#mongoLabel{
-	margin-top: 53%;
+.labels{
+	display: inline-flex;
 }
 
-#nodeLabel{
-	margin-top: 19%;
+.labels > h4{
+	margin: auto;
+padding-left: 6%;
+padding-right: 9%;
+
 }
 
-#reactLabel{
-	margin-top: 30%;
-}
-
-#googleLabel{
-	margin-top: 51%;
+.longLabels{
+	padding-left: 5%;	
 }
 
 #maps{
@@ -459,7 +458,6 @@ height: 85%
 .langImgCont{
 	width: 35%;
 	height: 25%;
-	padding-bottom: 25%;
 	padding-right: 2%;
 }
 
@@ -858,11 +856,17 @@ button{
 
  .mastercard{
  	max-width: 80px;
+
  }	
 
  .mastercard > li{
  	padding: 35%;
+ 	max-width: 
  }
+
+.productList{
+	margin-left: 10%;
+}
 
 .row{
 	display: block;
@@ -1224,7 +1228,7 @@ button{
     }
 
     .headerImg >img {
-    height: 16%;
+    height: auto;
     width: 30%;
 	}
 
@@ -1326,26 +1330,22 @@ button{
  		padding-top: 39%;
  	}
 
- 	#mongoLabel{
- 		margin-top: 64%;
- 	}
 
  	#node{
  		height: 89%;
  		padding-top: 0;
  	}
 
- 	#nodeLabel{
- 		margin-top: 25%;
- 	}
 
  	#react{
  		height: 89%;
  	}
 
- 	#googleLabel{
- 		margin-top: 54%;
- 	}
+
+ 	.labels > h4{
+	font-size: xx-large;
+	padding: 10%;
+	}
 
  	.langImage{
  		height: 100%;
@@ -1380,7 +1380,7 @@ button{
     }
 
     .headerImg >img {
-    height: 24%;
+    height: auto;
     width: 15%;
 	}
 
@@ -1460,17 +1460,10 @@ button{
  		padding-top: 0;
  	}
 
- 	#googleLabel{
- 		margin-top: 22%;
- 	}
 
  	#mongo{
  		height: auto;
  		padding-top: 9%;
- 	}
-
- 	#mongoLabel{
- 		margin-top: 26%;
  	}
 
  	#node{
@@ -1478,17 +1471,11 @@ button{
  		padding-top: 0;
  	}
 
- 	#nodeLabel{
- 		margin-top: 7%;
- 	}
-
  	#react{
  		height: 150%;
  	}
 
- 	#reactLabel{
- 		margin-top: 16%;	
- 	}
+
 
  	.langImage{
  		height: 150%;
