@@ -760,6 +760,10 @@ img:hover{
 	font-size: 40px;
 }
 
+.mastercard{
+	padding-left: 0%;
+}
+
 button{
 	font-size:larger;
 }
