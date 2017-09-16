@@ -199,7 +199,7 @@ h2 > a {
 
 
 #sales{
-	background: #e4eff7;
+	background: #e4e3e1;
 	padding-bottom: 3%;
 	padding-top: 2%;
 }
@@ -266,7 +266,7 @@ text-align: center;
 	max-height:5%;
 }
 #product{
-	background: #e4e3e1;
+	background: #e4eff7;
 	padding-bottom: 3%;
 	padding-top: 2%;
 }
@@ -313,8 +313,7 @@ margin-top: 5%;
 }
 
 #portfolioBody{
-	background: #e4eff7;
-	padding-bottom: 5%;
+	background: #e4e3e1;
 }
 
 #portfolioBody > h1{
@@ -437,6 +436,7 @@ height: 85%
 
 .labelsPort{
 	display: flex;
+	margin-bottom: 30px;
 }
 
 .labelsPort > h4{
@@ -522,7 +522,7 @@ button{
 
 
 #aboutMe{
-	background: #e4e3e1;
+	background: #e4eff7;
 	padding-bottom: 4%;
 }
 
@@ -590,7 +590,7 @@ button{
 	border: black solid;
 	text-align: center;
 	width: 300px;
-	background: #e4eff7;
+	background: #e4e3e1;
 	color:#7d4627;
 	transition-duration: 1s;
     transition-property: color;
@@ -667,7 +667,7 @@ padding-top: 13%;
 
 #contactMe{
 	background: #e4eff7;
-	padding-bottom: 5%;
+	padding-bottom: 2%;
 
 }
 
